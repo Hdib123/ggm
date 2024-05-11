@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-style-mode" content="1"> <!-- 0 == light, 1 == dark -->
+    <meta name="theme-style-mode" content="1">
+    <!-- 0 == light, 1 == dark -->
 
     <title>Golden Gate Management</title>
     <!-- Favicon -->
@@ -23,139 +24,142 @@
 
 <body>
     <main class="page-wrapper">
-       <!-- Start Header Area  -->
-       <header class="rainbow-header header-default header-not-transparent header-sticky">
-        <div class="container position-relative">
-            <div class="row align-items-center row--0">
-                <div class="col-lg-3 col-md-6 col-4">
+        <!-- Start Header Area  -->
+        <header class="rainbow-header header-default header-not-transparent header-sticky">
+            <div class="container position-relative">
+                <div class="row align-items-center row--0">
+                    <div class="col-lg-3 col-md-6 col-4">
+                        <div class="logo">
+                            <a href="index.html">
+                                <img class="logo-light" src="assets/images/logo/logo.png" alt="Corporate Logo">
+                                <img class="logo-dark" src="assets/images/logo/logo-dark.png" alt="Corporate Logo">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-9 col-md-6 col-8 position-static">
+                        <div class="header-right">
+
+                            <nav class="mainmenu-nav d-none d-lg-block">
+                                <ul class="mainmenu">
+                                    <li><a href="servicesfr.html">FR</a></li>
+                                    <li class="with-megamenu has-menu-child-item position-relative"><a href="index.html">Home</a>
+                                    </li>
+                                    <li><a href="about.html">About</a></li>
+
+
+                                    <li class="has-droupdown has-menu-child-item"><a href="services.html">Internal Services</a>
+                                        <ul class="submenu">
+                                            <li><a href="services.html#d1">Project Incubation</a></li>
+                                            <li><a href="services.html#e1">Studies and Diagnostics</a></li>
+                                            <li><a href="services.html#c1">Business Launch</a></li>
+                                            <li><a href="services.html#f1">Implementation</a></li>
+                                            <li><a href="services.html#b1">Corporate Governance</a></li>
+                                            <li><a href="services.html#d1">Optimization/Securing...</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="has-droupdown has-menu-child-item"><a href="servicesext.html">Partner Services</a>
+                                        <ul class="submenu">
+                                            <li><a href="servicesext.html#f2">Fundraising</a></li>
+                                            <li><a href="servicesext.html#b2">Business Creation</a></li>
+                                            <li><a href="servicesext.html#a2">Legal Advice</a></li>
+                                            <li><a href="servicesext.html#d2">Licenses and Authorizations</a></li>
+                                            <li><a href="servicesext.html#e2">Assistance in Program Formation</a></li>
+                                            <li><a href="servicesext.html#c2">Visas</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </nav>
+
+                            <!-- Start Header Btn  -->
+                            <div class="header-btn">
+                                <a class="btn-default btn-small round" href="contact.html">Contact Us</a>
+                            </div>
+                            <!-- End Header Btn  -->
+
+                            <!-- Start Mobile-Menu-Bar -->
+                            <div class="mobile-menu-bar ml--5 d-block d-lg-none">
+                                <div class="hamberger">
+                                    <button class="hamberger-button">
+                                        <i class="feather-menu"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <!-- Start Mobile-Menu-Bar -->
+
+                            <div id="my_switcher" class="my_switcher">
+                                <ul>
+                                    <li>
+                                        <a href="javascript: void(0);" data-theme="light" class="setColor light">
+                                            <img class="sun-image" src="assets/images/icons/sun-01.svg" alt="Sun images">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript: void(0);" data-theme="dark" class="setColor dark">
+                                            <img class="Victor Image" src="assets/images/icons/vector.svg" alt="Vector Images">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- End Header Area  -->
+        <div class="popup-mobile-menu">
+            <div class="inner">
+                <div class="header-top">
                     <div class="logo">
                         <a href="index.html">
                             <img class="logo-light" src="assets/images/logo/logo.png" alt="Corporate Logo">
                             <img class="logo-dark" src="assets/images/logo/logo-dark.png" alt="Corporate Logo">
                         </a>
                     </div>
-                </div>
-                <div class="col-lg-9 col-md-6 col-8 position-static">
-                    <div class="header-right">
-
-                        <nav class="mainmenu-nav d-none d-lg-block">
-                            <ul class="mainmenu">
-                                <li class="with-megamenu has-menu-child-item position-relative"><a href="index.html">Home</a>
-                                </li>
-                                <li><a href="about.html">A Propos</a></li>
-
-
-                                <li class="has-droupdown has-menu-child-item"><a href="services.html">Services Internes</a>
-                                    <ul class="submenu">
-                                        <li><a href="services.html#d1">Incubation de Projets</a></li>
-                                        <li><a href="services.html#e1">Études et diagnostics</a></li>
-                                        <li><a href="services.html#c1">Lancement d'activites</a></li>
-                                        <li><a href="services.html#f1">Implantation</a></li>
-                                        <li><a href="services.html#b1">Gouvernance d'entreprise</a></li>
-                                        <li><a href="services.html#d1">Optimistation/Securisation...</a></li>
-                                    </ul>
-                                </li>
-                                <li class="has-droupdown has-menu-child-item"><a href="servicesext.html">Services Partenaires</a>
-                                    <ul class="submenu">
-                                        <li><a href="servicesext.html#f2">Levée de Fonds</a></li>
-                                        <li><a href="servicesext.html#b2">Création d'entreprise</a></li>
-                                        <li><a href="servicesext.html#a2">Conseils juridiques</a></li>
-                                        <li><a href="servicesext.html#d2">Licences et autorisations</a></li>
-                                        <li><a href="servicesext.html#e2">Aide à la Création de Programmes de Formation</a></li>
-                                        <li><a href="servicesext.html#c2">Visas</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </nav>
-
-                        <!-- Start Header Btn  -->
-                        <div class="header-btn">
-                            <a class="btn-default btn-small round" href="contact.html">Contactez-nous</a>
-                        </div>
-                        <!-- End Header Btn  -->
-
-                        <!-- Start Mobile-Menu-Bar -->
-                        <div class="mobile-menu-bar ml--5 d-block d-lg-none">
-                            <div class="hamberger">
-                                <button class="hamberger-button">
-                                    <i class="feather-menu"></i>
-                                </button>
-                            </div>
-                        </div>
-                        <!-- Start Mobile-Menu-Bar -->
-
-                        <div id="my_switcher" class="my_switcher">
-                            <ul>
-                                <li>
-                                    <a href="javascript: void(0);" data-theme="light" class="setColor light">
-                                        <img class="sun-image" src="assets/images/icons/sun-01.svg" alt="Sun images">
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="javascript: void(0);" data-theme="dark" class="setColor dark">
-                                        <img class="Victor Image" src="assets/images/icons/vector.svg" alt="Vector Images">
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-
+                    <div class="close-menu">
+                        <button class="close-button">
+                            <i class="feather-x"></i>
+                        </button>
                     </div>
                 </div>
-            </div>
-        </div>
-    </header>
-    <!-- End Header Area  -->
-    <div class="popup-mobile-menu">
-        <div class="inner">
-            <div class="header-top">
-                <div class="logo">
-                    <a href="index.html">
-                        <img class="logo-light" src="assets/images/logo/logo.png" alt="Corporate Logo">
-                        <img class="logo-dark" src="assets/images/logo/logo-dark.png" alt="Corporate Logo">
-                    </a>
-                </div>
-                <div class="close-menu">
-                    <button class="close-button">
-                        <i class="feather-x"></i>
-                    </button>
-                </div>
-            </div>
-            <ul class="mainmenu">
-                <li class=""><a href="index.html">Home</a>
+                <ul class="mainmenu">
+                    <li class=""><a href="index.html">Home</a>
 
-                </li>
-                <li><a href="about.html">A Propos</a></li>
+                    </li>
+                    <li><a href="about.html">About</a></li>
 
-                <li class="has-droupdown has-menu-child-item"><a href="services.html">Services</a>
-                    <ul class="submenu">
-                        <li><a href="services.html#d1">Incubation de Projets</a></li>
-                        <li><a href="services.html#b1">Gouvernance d'entreprise</a></li>
-                        <li><a href="services.html#c1">Lancement d'activites</a></li>
-                        <li><a href="services.html#d1">Optimistation/Securisation...</a></li>
-                        <li><a href="services.html#e1">Études et diagnostics</a></li>
-                        <li><a href="services.html#f1">Création et implantation</a></li>
-                    </ul>
-                </li>
-                <li class="has-droupdown has-menu-child-item"><a href="servicesext.html">Services partenaires</a>
-                    <ul class="submenu">
-                            <li><a href="servicesext.html#f2">Levée de Fonds</a></li>
-                            <li><a href="servicesext.html#a2">Conseils juridiques</a></li>
-                            <li><a href="servicesext.html#b2">Création d'entreprise</a></li>
-                            <li><a href="servicesext.html#c2">Aide à la Création de Programmes de Formation</a></li>
+                    <li class="has-droupdown has-menu-child-item"><a href="services.html">Services</a>
+                        <ul class="submenu">
+                            <li><a href="services.html#d1">Project Incubation</a></li>
+                            <li><a href="services.html#b1">Corporate Governance</a></li>
+                            <li><a href="services.html#c1">Business Launch</a></li>
+                            <li><a href="services.html#d1">Optimization/Securing...</a></li>
+                            <li><a href="services.html#e1">Studies and Diagnostics</a></li>
+                            <li><a href="services.html#f1">Creation and Implementation</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-droupdown has-menu-child-item"><a href="servicesext.html">Partner Services</a>
+                        <ul class="submenu">
+                            <li><a href="servicesext.html#f2">Fundraising</a></li>
+                            <li><a href="servicesext.html#a2">Legal Advice</a></li>
+                            <li><a href="servicesext.html#b2">Business</a></li>
+                            <li><a href="servicesext.html#b2">Business Creation</a></li>
+                            <li><a href="servicesext.html#c2">Assistance in Program Formation</a></li>
                             <li><a href="servicesext.html#d2">Visas</a></li>
-                            <li><a href="servicesext.html#e2">Licences et autorisations</a></li>
-                      </ul>  
-                </li>
-                <li><a href="contact.html">Contactez-nous</a></li>
-                
+                            <li><a href="servicesext.html#e2">Licenses and Authorizations</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="servicesfr.html">FR</a></li>
+                </ul>
+            </div>
         </div>
-    </div>
-    <!-- Start Theme Style  -->
-    <div>
-        <div class="rainbow-gradient-circle"></div>
-        <div class="rainbow-gradient-circle theme-pink"></div>
-    </div>
-    <!-- End Theme Style  -->
+        <!-- Start Theme Style  -->
+        <div>
+            <div class="rainbow-gradient-circle"></div>
+            <div class="rainbow-gradient-circle theme-pink"></div>
+        </div>
+        <!-- End Theme Style  -->
 
 
 
@@ -172,532 +176,362 @@
             </div>
             <!-- End Seperator Area  -->
 
-            <!-- Start tab Style Two  -->
-            <div id="a1" class="rainbow-tab-area rainbow-section-gap">
+<!-- Start tab Style Two  -->
+<div id="a1" class="rainbow-tab-area rainbow-section-gap">
+    <div class="container">
+        <div class="row mb--40">
+            <div class="col-lg-12">
+                <div class="section-title text-center" data-sal="slide-up" data-sal-duration="700" data-sal-delay="100">
+                    <h2 class="title w-600 mb--20">Project Incubation</h2>
+                    <h4 class="subtitle "><span class="theme-gradient">Objective: Transforming innovative ideas into viable and competitive businesses.</span></h4>
+                    <p>We turn concepts into thriving commercial realities with our incubation services, providing comprehensive administrative support and efficient process digitalization.<br><br>
+                        From idea incubation to your own business, we provide a complete ecosystem to turn your vision into a thriving enterprise. Our incubation program includes personalized mentoring, technical support, and access to a network of industrial and financial partners.<br><br>
+                        Our incubation program can range from administrative support only to providing personalized coaching, cutting-edge technological resources, and access to influential networks upon request.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="row row row--30 align-items-center">
+                <div class="col-lg-5 order-1 order-lg-2">
+                    <img class="radius-small" src="assets/images/tab/tabs-01.jpg" alt="Corporate Template">
+                </div>
+
+                <div class="col-lg-7 mt_md--40 mt_sm--40 order-2 order-lg-1">
+                    <div class="rainbow-default-tab style-two">
+                        <ul class="nav nav-tabs tab-button" role="tablist">
+                            <li class="nav-item tabs__tab " role="presentation">
+                                <button class="nav-link active" id="irin-tab" data-bs-toggle="tab" data-bs-target="#irin" type="button" role="tab" aria-controls="irin" aria-selected="true">Initial Evaluation</button>
+                            </li>
+                            <li class="nav-item tabs__tab " role="presentation">
+                                <button class="nav-link" id="nipa-tab" data-bs-toggle="tab" data-bs-target="#nipa" type="button" role="tab" aria-controls="nipa" aria-selected="false">Prototype Development</button>
+                            </li>
+                            <li class="nav-item tabs__tab " role="presentation">
+                                <button class="nav-link" id="supa-tab" data-bs-toggle="tab" data-bs-target="#supa" type="button" role="tab" aria-controls="supa" aria-selected="false">Strategic Guidance</button>
+                            </li>
+                            <li class="nav-item tabs__tab " role="presentation">
+                                <button class="nav-link" id="a-tab" data-bs-toggle="tab" data-bs-target="#a" type="button" role="tab" aria-controls="a" aria-selected="false">Externalization</button>
+                            </li>
+                            <li class="nav-item tabs__tab " role="presentation">
+                                <button class="nav-link" id="b-tab" data-bs-toggle="tab" data-bs-target="#b" type="button" role="tab" aria-controls="b" aria-selected="false">Administrative Support</button>
+                            </li>
+                            <li class="nav-item tabs__tab " role="presentation">
+                                <button class="nav-link" id="c-tab" data-bs-toggle="tab" data-bs-target="#c" type="button" role="tab" aria-controls="c" aria-selected="false">Continuing Education</button>
+                            </li>
+                        </ul>
+                        <div class="rainbow-tab-content tab-content">
+                            <div class="tab-pane fade show active" id="irin" role="tabpanel" aria-labelledby="irin-tab">
+                                <p>Assess the feasibility of the idea, study the target market, and evaluate risks.</p>
+                            </div>
+
+                            <div class="tab-pane fade" id="nipa" role="tabpanel" aria-labelledby="profile-tab">
+                                <p>Assist in the design and development of prototypes to test the market and improve the product.</p>
+                            </div>
+
+                            <div class="tab-pane fade" id="supa" role="tabpanel" aria-labelledby="contact-tab">
+                                <p>Provide personalized coaching in business strategy and product development.</p>
+                            </div>
+                            <div class="tab-pane fade" id="a" role="tabpanel" aria-labelledby="a-tab">
+                                <p>Organize the project's autonomy by creating a legal existence with assistance in all necessary administrative procedures for business creation.</p>
+                            </div>
+                            <div class="tab-pane fade" id="b" role="tabpanel" aria-labelledby="b-tab">
+                                <p>For the initial steps of your project, we provide comprehensive support with our administrative address, dedicated communication means, and a sub-bank account.</p>
+                            </div>
+                            <div class="tab-pane fade" id="c" role="tabpanel" aria-labelledby="c-tab">
+                                <p>Organize workshops and training sessions on specific topics such as digital marketing, financial management, and business law.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Start tab Style Two  -->
+<!-- Start Seperator Area  -->
+<div class="rbt-separator-mid">
+    <div class="container">
+        <hr class="rbt-separator m-0">
+    </div>
+</div>
+<!-- End Seperator Area  -->
+<!-- Start tab Style One  -->
+<div id="e1" class="rainbow-tab-area rainbow-section-gap">
+    <div class="container">
+        <div class="row mb--40">
+            <div class="col-lg-12">
+                <div class="section-title text-center" data-sal="slide-up" data-sal-duration="700" data-sal-delay="100">
+                    <h2 class="title w-600 mb--20">Studies and Diagnostics</h2>
+                    <h4 class="subtitle "><span class="theme-gradient">Objective: Provide a solid foundation for investment and development decisions through in-depth analysis.</span></h4>
+                    <p>Before diving in, let us evaluate the technical and financial feasibility of your projects with in-depth analysis to ensure the best decision making.<br><br>
+                        With our evidence-based approach, we assess the viability of your projects through detailed market studies and technical diagnostics, providing you with a solid foundation for your investment decisions.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row row row--30 align-items-center">
+            <div class="col-lg-5">
+                <img class="radius-small" src="assets/images/tab/tabs-04.png" alt="Corporate Template">
+            </div>
+            <div class="col-lg-7 mt_md--40 mt_sm--40 order-2 order-lg-1">
+                <div class="rainbow-default-tab">
+                    <ul class="nav
+
+ nav-tabs tab-button" role="tablist">
+                        <li class="nav-item tabs__tab " role="presentation">
+                            <button class="nav-link active" id="da-tab" data-bs-toggle="tab" data-bs-target="#da" type="button" role="tab" aria-controls="da" aria-selected="true">Feasibility Analyses</button>
+                        </li>
+                        <li class="nav-item tabs__tab " role="presentation">
+                            <button class="nav-link" id="db-tab" data-bs-toggle="tab" data-bs-target="#db" type="button" role="tab" aria-controls="db" aria-selected="false">Technical Audits</button>
+                        </li>
+                        <li class="nav-item tabs__tab " role="presentation">
+                            <button class="nav-link" id="dc-tab" data-bs-toggle="tab" data-bs-target="#dc" type="button" role="tab" aria-controls="dc" aria-selected="false">In-depth Market Studies</button>
+                        </li>
+                        <li class="nav-item tabs__tab " role="presentation">
+                            <button class="nav-link" id="dd-tab" data-bs-toggle="tab" data-bs-target="#dd" type="button" role="tab" aria-controls="dd" aria-selected="false">Risk Reports</button>
+                        </li>
+                    </ul>
+                    <div class="rainbow-tab-content tab-content">
+                        <div class="tab-pane fade show active" id="da" role="tabpanel" aria-labelledby="da-tab">
+                            <p>Technical and financial evaluation of new projects or expansions.</p>
+                        </div>
+
+                        <div class="tab-pane fade" id="db" role="tabpanel" aria-labelledby="db-tab">
+                            <p>Inspection and evaluation of technological infrastructures and operational processes.</p>
+                        </div>
+
+                        <div class="tab-pane fade" id="dc" role="tabpanel" aria-labelledby="dc-tab">
+                            <p>Collection and analysis of data to support product development and entry into new markets.</p>
+                        </div>
+                        <div class="tab-pane fade" id="dd" role="tabpanel" aria-labelledby="dd-tab">
+                            <p>Identification and evaluation of potential risks associated with new investments or strategies.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- Start tab Style One  -->
+
+
+<!-- Start tab Style Two  -->
+<div id="c1" class="rainbow-tab-area rainbow-section-gap">
+    <div class="container">
+        <div class="row mb--40">
+            <div class="col-lg-12">
+                <div class="section-title text-center" data-sal="slide-up" data-sal-duration="700" data-sal-delay="100">
+                    <h2 class="title w-600 mb--20">Business Launch</h2>
+                    <h4 class="subtitle "><span class="theme-gradient">Objective: Help our clients effectively launch their products or services in the market</span></h4>
+                    <p>Our economic modeling experts guide you to the best market path, optimizing your business model to maximize revenue and minimize costs. Analyze the market accurately with our market positioning expertise. We help you define the best step-by-step process, guiding you towards innovative and profitable distribution and marketing strategies.<br><br>
+                        We analyze the market, create prototypes, test the product, and define the most effective pricing and distribution strategies for a successful launch. Our clients benefit from tailored support to navigate the crucial early stages of marketing.</p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="row row row--30 align-items-center">
+                <div class="col-lg-5 order-1 order-lg-2">
+                    <img class="radius-small" src="assets/images/tab/tabs-03.avif" alt="Corporate Template">
+                </div>
+
+                <div class="col-lg-7 mt_md--40 mt_sm--40 order-2 order-lg-1">
+                    <div class="rainbow-default-tab style-two">
+                        <ul class="nav nav-tabs tab-button" role="tablist">
+                            <li class="nav-item tabs__tab " role="presentation">
+                                <button class="nav-link active" id="ba-tab" data-bs-toggle="tab" data-bs-target="#ba" type="button" role="tab" aria-controls="ba" aria-selected="true">Market Study</button>
+                            </li>
+                            <li class="nav-item tabs__tab " role="presentation">
+                                <button class="nav-link" id="bb-tab" data-bs-toggle="tab" data-bs-target="#bb" type="button" role="tab" aria-controls="bb" aria-selected="false">Positioning Strategy</button>
+                            </li>
+                            <li class="nav-item tabs__tab " role="presentation">
+                                <button class="nav-link" id="bc-tab" data-bs-toggle="tab" data-bs-target="#bc" type="button" role="tab" aria-controls="bc" aria-selected="false">Marketing Planning</button>
+                            </li>
+                            <li class="nav-item tabs__tab " role="presentation">
+                                <button class="nav-link" id="bd-tab" data-bs-toggle="tab" data-bs-target="#bd" type="button" role="tab" aria-controls="bd" aria-selected="false">Financial Modeling</button>
+                            </li>
+                            <li class="nav-item tabs__tab " role="presentation">
+                                <button class="nav-link" id="be-tab" data-bs-toggle="tab" data-bs-target="#be" type="button" role="tab" aria-controls="be" aria-selected="false">Project Management</button>
+                            </li>
+                            <li class="nav-item tabs__tab " role="presentation">
+                                <button class="nav-link" id="bf-tab" data-bs-toggle="tab" data-bs-target="#bf" type="button" role="tab" aria-controls="bf" aria-selected="false">Post-launch Monitoring</button>
+                            </li>
+                        </ul>
+                        <div class="rainbow-tab-content tab-content">
+                            <div class="tab-pane fade show active" id="ba" role="tabpanel" aria-labelledby="ba-tab">
+                                <p>Conduct market studies to identify sector-specific opportunities and challenges.</p>
+                            </div>
+
+                            <div class="tab-pane fade" id="bb" role="tabpanel" aria-labelledby="bb-tab">
+                                <p>Define the company and product positioning in the market.</p>
+                            </div>
+
+                            <div class="tab-pane fade" id="bc" role="tabpanel" aria-labelledby="bc-tab">
+                                <p>Develop tailored marketing and communication strategies.</p>
+                            </div>
+                            <div class="tab-pane fade" id="bd" role="tabpanel" aria-labelledby="bd-tab">
+                                <p>Create financial models to forecast revenues and expenses.</p>
+                            </div>
+                            <div class="tab-pane fade" id="be" role="tabpanel" aria-labelledby="be-tab">
+                                <p>Supervise the launch process, from planning to execution.</p>
+                            </div>
+                            <div class="tab-pane fade" id="bf" role="tabpanel" aria-labelledby="bf-tab">
+                                <p>Analyze performance and adjust strategies accordingly.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Start tab Style Two  -->
+
+               <!-- Start tab Style One  -->
+               <div id="b1" class="rainbow-tab-area rainbow-section-gap">
                 <div class="container">
                     <div class="row mb--40">
                         <div class="col-lg-12">
                             <div class="section-title text-center" data-sal="slide-up" data-sal-duration="700" data-sal-delay="100">
-                                <h2 class="title w-600 mb--20">Incubation de projets</h2>
-                                <h4 class="subtitle "><span class="theme-gradient">Objectif : Transformer des idées innovantes en entreprises viables et compétitives.</span></h4>
-                                <p>Nous transformons les concepts en réalités commerciales prospères avec nos services 
-                                    d'incubation, en fournissant une base administrative complète et une dématérialisation 
-                                    efficace des processus.<br><br>
-                                    De l'idée à l’incubation à votre propre entreprise, nous fournissons un écosystème complet 
-                                    pour transformer votre vision en une entreprise prospère. Notre programme d'incubation  
-                                    inclut mentorat personnalisé, support technique et accès à un réseau de partenaires 
-                                    industriels et financiers.<br><br>
-                                    Notre programme d'incubation peut se limiter à un soutien administratif ; ou sur demande fournir un coaching personnalisé, des ressources technologiques de pointe et un accès à un réseau 
-                                    influents. 
+                                <h2 class="title w-600 mb--20">Corporate Governance</h2>
+                                <h4 class="subtitle "><span class="theme-gradient">Objective: Improve the organizational structure and compliance of the company for more effective and responsible management.</span></h4>
+                                <p>Our corporate governance specialists help you structure or restructure your organization for maximum efficiency, ensuring compliance and integrity at every step.<br><br>
+                                    Enhance the structure and organization of your company with our corporate governance services. We assist you in establishing strong practices that promote transparency and accountability.<br><br>
+                                    Our governance advisory transforms your organizational structure to enhance operational efficiency, decision-making processes, and relationships with customers, suppliers, and partners.
                                     </p>
                             </div>
                         </div>
                     </div>
-                    <div>
-                        <div class="row row row--30 align-items-center">
-                            <div class="col-lg-5 order-1 order-lg-2">
-                                <img class="radius-small" src="assets/images/tab/tabs-01.jpg" alt="Corporate Template">
-                            </div>
 
-                            <div class="col-lg-7 mt_md--40 mt_sm--40 order-2 order-lg-1">
-                                <div class="rainbow-default-tab style-two">
-                                    <ul class="nav nav-tabs tab-button" role="tablist">
-                                        <li class="nav-item tabs__tab " role="presentation">
-                                            <button class="nav-link active" id="irin-tab" data-bs-toggle="tab" data-bs-target="#irin" type="button" role="tab" aria-controls="irin" aria-selected="true">Évaluation initiale</button>
-                                        </li>
-                                        <li class="nav-item tabs__tab " role="presentation">
-                                            <button class="nav-link" id="nipa-tab" data-bs-toggle="tab" data-bs-target="#nipa" type="button" role="tab" aria-controls="nipa" aria-selected="false">Développement de prototype</button>
-                                        </li>
-                                        <li class="nav-item tabs__tab " role="presentation">
-                                            <button class="nav-link" id="supa-tab" data-bs-toggle="tab" data-bs-target="#supa" type="button" role="tab" aria-controls="supa" aria-selected="false">Accompagnement stratégique</button>
-                                        </li>
-                                        <li class="nav-item tabs__tab " role="presentation">
-                                            <button class="nav-link" id="a-tab" data-bs-toggle="tab" data-bs-target="#a" type="button" role="tab" aria-controls="a" aria-selected="false">Éxternalization</button>
-                                        </li>
-                                        <li class="nav-item tabs__tab " role="presentation">
-                                            <button class="nav-link" id="b-tab" data-bs-toggle="tab" data-bs-target="#b" type="button" role="tab" aria-controls="b" aria-selected="false">Support administratif</button>
-                                        </li>
-                                        <li class="nav-item tabs__tab " role="presentation">
-                                            <button class="nav-link" id="c-tab" data-bs-toggle="tab" data-bs-target="#c" type="button" role="tab" aria-controls="c" aria-selected="false">Formation continue</button>
-                                        </li>
-                                    </ul>
-                                    <div class="rainbow-tab-content tab-content">
-                                        <div class="tab-pane fade show active" id="irin" role="tabpanel" aria-labelledby="irin-tab">
-                                            <p>Analyser la viabilité de l'idée, étudier le marché cible et évaluer les 
-                                                risques.</p>
-                                        </div>
-
-                                        <div class="tab-pane fade" id="nipa" role="tabpanel" aria-labelledby="profile-tab">
-                                            <p>Aider à la conception et au développement de prototypes 
-                                                pour tester le marché et améliorer le produit</p>
-                                        </div>
-
-                                        <div class="tab-pane fade" id="supa" role="tabpanel" aria-labelledby="contact-tab">
-                                            <p> Offrir un coaching personnalisé en stratégie d'entreprise 
-                                                et en développement produit.</p>
-                                        </div>
-                                        <div class="tab-pane fade" id="a" role="tabpanel" aria-labelledby="a-tab">
-                                            <p>Organizer l'autonomie du projet en créent une existence juridique avec une 
-                                                assistance dans toutes les démarches administratives nécessaires à la création 
-                                                d'entreprise.</p>
-                                        </div>
-                                            <div class="tab-pane fade" id="b" role="tabpanel" aria-labelledby="b-tab">
-                                                    <p>Pour les premiers pas de botre projet nous fournissons un portage complet avec notre adresse administrative, des moyens de communication dédiés, et un sous-compte banquaire.</p>
-                                            </div>
-                                            <div class="tab-pane fade" id="c" role="tabpanel" aria-labelledby="c-tab">
-                                                    <p>Organisation de workshops et de sessions de formation sur des 
-                                                        thèmes spécifiques comme le marketing digital, la gestion financière, et le droit des affaires.</p>
-                                            </div>
-                                        </div>
+                    <div class="row row row--30 align-items-center">
+                        <div class="col-lg-5">
+                            <img class="radius-small" src="assets/images/tab/tabs-02.jpg" alt="Corporate Template">
+                        </div>
+                        <div class="col-lg-7 mt_md--40 mt_sm--40 order-2 order-lg-1">
+                            <div class="rainbow-default-tab">
+                                <ul class="nav nav-tabs tab-button" role="tablist">
+                                    <li class="nav-item tabs__tab " role="presentation">
+                                        <button class="nav-link active" id="ca-tab" data-bs-toggle="tab" data-bs-target="#ca" type="button" role="tab" aria-controls="ca" aria-selected="true">Compliance Audit</button>
+                                    </li>
+                                    <li class="nav-item tabs__tab " role="presentation">
+                                        <button class="nav-link" id="cc-tab" data-bs-toggle="tab" data-bs-target="#cc" type="button" role="tab" aria-controls="cc" aria-selected="false">Executive Training</button>
+                                    </li>
+                                    <li class="nav-item tabs__tab " role="presentation">
+                                        <button class="nav-link" id="cb-tab" data-bs-toggle="tab" data-bs-target="#cb" type="button" role="tab" aria-controls="cb" aria-selected="false">Internal Policy Development</button>
+                                    </li>
+                                    <li class="nav-item tabs__tab " role="presentation">
+                                        <button class="nav-link" id="ce-tab" data-bs-toggle="tab" data-bs-target="#ce" type="button" role="tab" aria-controls="ce" aria-selected="false">Regular Reporting</button>
+                                    </li>
+                                    <li class="nav-item tabs__tab " role="presentation">
+                                        <button class="nav-link" id="cd-tab" data-bs-toggle="tab" data-bs-target="#cd" type="button" role="tab" aria-controls="cd" aria-selected="false">Decision-Making Process Optimization</button>
+                                    </li>
+                                </ul>
+                                <div class="rainbow-tab-content tab-content">
+                                    <div class="tab-pane fade show active" id="ca" role="tabpanel" aria-labelledby="ca-tab">
+                                        <p>Evaluation of current governance practices.</p>
                                     </div>
-                                    
+
+                                    <div class="tab-pane fade" id="cb" role="tabpanel" aria-labelledby="cb-tab">
+                                        <p>Creation and updating of policies to enhance transparency and accountability.</p>
+                                    </div>
+
+                                    <div class="tab-pane fade" id="cc" role="tabpanel" aria-labelledby="cc-tab">
+                                        <p>Training sessions for executives and board members on best governance practices.</p>
+                                    </div>
+                                    <div class="tab-pane fade" id="cd" role="tabpanel" aria-labelledby="cd-tab">
+                                        <p>Review of processes to ensure quick and effective decision-making.</p>
+                                    </div>
+                                    <div class="tab-pane fade" id="ce" role="tabpanel" aria-labelledby="ce-tab">
+                                        <p>Implementation of reporting systems for performance monitoring and regulatory compliance.</p>
+                                    </div>
                                 </div>
-                                
                             </div>
                         </div>
                     </div>
-                </div>
-                <!-- Start tab Style Two  -->
-                            <!-- Start Seperator Area  -->
-            <div class="rbt-separator-mid">
-                <div class="container">
-                    <hr class="rbt-separator m-0">
+
                 </div>
             </div>
-            <!-- End Seperator Area  -->
-                                                        <!-- Start Seperator Area  -->
-                                                        <div class="rbt-separator-mid">
-                                                            <div class="container">
-                                                                <hr class="rbt-separator m-0">
-                                                            </div>
-                                                        </div>
-                                                        <!-- End Seperator Area  -->
-                                                            
-                                                            <!-- Start tab Style One  -->
-                                                            <div id="e1" class="rainbow-tab-area rainbow-section-gap">
-                                                                <div class="container">
-                                                                    <div class="row mb--40">
-                                                                        <div class="col-lg-12">
-                                                                            <div class="section-title text-center" data-sal="slide-up" data-sal-duration="700" data-sal-delay="100">
-                                                                                <h2 class="title w-600 mb--20">Études et diagnostics</h2>
-                                                                                <h4 class="subtitle "><span class="theme-gradient">Objectif : Fournir une base solide pour les décisions d'investissement et de développement 
-                                                                                    grâce à des analyses approfondies.</span></h4>
-                                                                                <p>Avant de plonger, laissez-nous évaluer la faisabilité technique et financière de vos projets 
-                                                                                    avec des analyses approfondies pour assurer la meilleure prise de décision.<br><br>
-                                                                                    Avec notre approche basée sur des données probantes, nous évaluons la viabilité de vos 
-                                                                                    projets à travers des études de marché détaillées et des diagnostics techniques, vous 
-                                                                                    offrant ainsi une base solide pour vos décisions d'investissement.
-                                                                                    </p>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                
-                                                                    <div class="row row row--30 align-items-center">
-                                                                        <div class="col-lg-5">
-                                                                            <img class="radius-small" src="assets/images/tab/tabs-04.png" alt="Corporate Template">
-                                                                        </div>
-                                                                        <div class="col-lg-7 mt_md--40 mt_sm--40 order-2 order-lg-1">
-                                                                            <div class="rainbow-default-tab">
-                                                                                <ul class="nav nav-tabs tab-button" role="tablist">
-                                                                                    <li class="nav-item tabs__tab " role="presentation">
-                                                                                        <button class="nav-link active" id="da-tab" data-bs-toggle="tab" data-bs-target="#da" type="button" role="tab" aria-controls="da" aria-selected="true">Analyses de faisabilité</button>
-                                                                                    </li>
-                                                                                    <li class="nav-item tabs__tab " role="presentation">
-                                                                                        <button class="nav-link" id="db-tab" data-bs-toggle="tab" data-bs-target="#db" type="button" role="tab" aria-controls="db" aria-selected="false">Audits techniques</button>
-                                                                                    </li>
-                                                                                    <li class="nav-item tabs__tab " role="presentation">
-                                                                                        <button class="nav-link" id="dc-tab" data-bs-toggle="tab" data-bs-target="#dc" type="button" role="tab" aria-controls="dc" aria-selected="false">Études de marché approfondies</button>
-                                                                                    </li>
-                                                                                    <li class="nav-item tabs__tab " role="presentation">
-                                                                                        <button class="nav-link" id="dd-tab" data-bs-toggle="tab" data-bs-target="#dd" type="button" role="tab" aria-controls="dd" aria-selected="false">Rapports de risque</button>
-                                                                                    </li>
-                                                                                </ul>
-                                                                                <div class="rainbow-tab-content tab-content">
-                                                                                    <div class="tab-pane fade show active" id="da" role="tabpanel" aria-labelledby="da-tab">
-                                                                                        <p> Évaluation technique et financière de nouveaux projets ou 
-                                                                                            expansions.</p>
-                                                                                    </div>
-                                                
-                                                                                    <div class="tab-pane fade" id="db" role="tabpanel" aria-labelledby="db-tab">
-                                                                                        <p>Inspection et évaluation des infrastructures technologiques et des 
-                                                                                            processus opérationnels.</p>
-                                                                                    </div>
-                                                
-                                                                                    <div class="tab-pane fade" id="dc" role="tabpanel" aria-labelledby="dc-tab">
-                                                                                        <p>Collecte et analyse de données pour soutenir le 
-                                                                                            développement de produits et l'entrée sur de nouveaux marchés.</p>
-                                                                                    </div>
-                                                                                    <div class="tab-pane fade" id="dd" role="tabpanel" aria-labelledby="dd-tab">
-                                                                                        <p>Identification et évaluation des risques potentiels associés aux 
-                                                                                            nouveaux investissements ou stratégies.</p>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                
-                                                                </div>
-                                                            </div>
-                                                            <!-- Start tab Style One  -->
-                
-
-             <!-- Start tab Style Two  -->
-             <div id="c1" class="rainbow-tab-area rainbow-section-gap">
-                <div class="container">
-                    <div class="row mb--40">
-                        <div class="col-lg-12">
-                            <div class="section-title text-center" data-sal="slide-up" data-sal-duration="700" data-sal-delay="100">
-                                <h2 class="title w-600 mb--20">Lancement d'activités</h2>
-                                <h4 class="subtitle "><span class="theme-gradient">Objectif : Aider nos clients à lancer efficacement leurs produits ou services sur le marché</span></h4>
-                                <p>Nos experts en modélisation économique vous guident vers le meilleur chemin de marché, 
-                                    optimisant votre modèle d'affaires pour maximiser les revenus et minimiser les coûts.
-                                    Analysez le marché avec précision grâce à notre expertise en positionnement marché. 
-                                    Nous vous aidons à définir le meilleur processus étape par étape, en vous orientant vers des 
-                                    stratégies de distribution et de commercialisation innovantes et rentables.<br><br>
-                                    Nous analysons le marché, créons des prototypes, testons le produit et définissons les 
-                                    stratégies de prix et de distribution les plus efficaces pour assurer un lancement réussi. Nos 
-                                    clients bénéficient d'un accompagnement sur mesure pour naviguer dans les premières 
-                                    étapes cruciales de la commercialisation.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="row row row--30 align-items-center">
-                            <div class="col-lg-5 order-1 order-lg-2">
-                                <img class="radius-small" src="assets/images/tab/tabs-03.avif" alt="Corporate Template">
-                            </div>
-
-                            <div class="col-lg-7 mt_md--40 mt_sm--40 order-2 order-lg-1">
-                                <div class="rainbow-default-tab style-two">
-                                    <ul class="nav nav-tabs tab-button" role="tablist">
-                                        <li class="nav-item tabs__tab " role="presentation">
-                                            <button class="nav-link active" id="ba-tab" data-bs-toggle="tab" data-bs-target="#ba" type="button" role="tab" aria-controls="ba" aria-selected="true">Étude de marché</button>
-                                        </li>
-                                        <li class="nav-item tabs__tab " role="presentation">
-                                            <button class="nav-link" id="bb-tab" data-bs-toggle="tab" data-bs-target="#bb" type="button" role="tab" aria-controls="bb" aria-selected="false">Stratégie de positionnement</button>
-                                        </li>
-                                        <li class="nav-item tabs__tab " role="presentation">
-                                            <button class="nav-link" id="bc-tab" data-bs-toggle="tab" data-bs-target="#bc" type="button" role="tab" aria-controls="bc" aria-selected="false">Planification marketing</button>
-                                        </li>
-                                        <li class="nav-item tabs__tab " role="presentation">
-                                            <button class="nav-link" id="bd-tab" data-bs-toggle="tab" data-bs-target="#bd" type="button" role="tab" aria-controls="bd" aria-selected="false">Modélisation financière</button>
-                                        </li>
-                                        <li class="nav-item tabs__tab " role="presentation">
-                                            <button class="nav-link" id="be-tab" data-bs-toggle="tab" data-bs-target="#be" type="button" role="tab" aria-controls="be" aria-selected="false">Gestion de projet</button>
-                                        </li>
-                                        <li class="nav-item tabs__tab " role="presentation">
-                                            <button class="nav-link" id="bf-tab" data-bs-toggle="tab" data-bs-target="#bf" type="button" role="tab" aria-controls="bf" aria-selected="false">Suivi post-lancement</button>
-                                        </li>
-                                    </ul>
-                                    <div class="rainbow-tab-content tab-content">
-                                        <div class="tab-pane fade show active" id="ba" role="tabpanel" aria-labelledby="ba-tab">
-                                            <p>Réalisation d'études de marché pour identifier les opportunités et les 
-                                                défis spécifiques au secteur.</p>
-                                        </div>
-
-                                        <div class="tab-pane fade" id="bb" role="tabpanel" aria-labelledby="bb-tab">
-                                            <p>Définition du positionnement de l'entreprise et du produit 
-                                                sur le marché.</p>
-                                        </div>
-
-                                        <div class="tab-pane fade" id="bc" role="tabpanel" aria-labelledby="bc-tab">
-                                            <p> Développement de stratégies marketing et de communication 
-                                                adaptées.</p>
-                                        </div>
-                                        <div class="tab-pane fade" id="bd" role="tabpanel" aria-labelledby="bd-tab">
-                                            <p>Création de modèles financiers pour prévoir les revenus et les 
-                                                dépenses.</p>
-                                        </div>
-                                            <div class="tab-pane fade" id="be" role="tabpanel" aria-labelledby="be-tab">
-                                                    <p>Supervision du processus de lancement, du planning à l'exécution.</p>
-                                            </div>
-                                            <div class="tab-pane fade" id="bf" role="tabpanel" aria-labelledby="bf-tab">
-                                                <p>Analyse des performances et ajustement des stratégies en 
-                                                    conséquence.</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
+            <!-- Start tab Style One  -->
+                        <!-- Start Seperator Area  -->
+        <div class="rbt-separator-mid">
+            <div class="container">
+                <hr class="rbt-separator m-0">
             </div>
-            <!-- Start tab Style Two  -->
+        </div>
+        <!-- End Seperator Area  -->
 
+        
+                    <div id="d1" class="rainbow-elements-area rainbow-section-gap">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="entry-content">
+                                        <h2 style="text-align: center;">Data Management Optimization and Security
+                                            Automation and Performance Monitoring</h2>
+                                        <ul>
+                                            <li>At Golden Gate Management, we understand that information accuracy and data security are fundamental pillars for business growth and stability. That's why we offer advanced solutions for reporting automation and data security, designed to strengthen internal governance and accelerate strategic decision-making.</li>
+                                            <li>Our automation services enable you to benefit from accurate and real-time activity and financial reporting, through sophisticated dashboards and automated alert systems. These tools are essential for maintaining a clear view of your company's performance, alerting you immediately to deviations to enable quick and measured response.</li>
+                                            <li>Concurrently, we place great emphasis on ensuring the security of your information and assets. Our data security strategies include regular security audits, dedicated training for your teams, and the implementation of cutting-edge technologies to protect your resources against unauthorized access or information loss.</li>
+                                            <li>With Golden Gate Management, you are equipped to face the challenges of today and tomorrow, ensuring not only compliance and performance but also unparalleled peace of mind regarding data security.</li>
+                                        </ul>
+        
+                                        <h4 class="subtitle" style="text-align: center;"><span class="theme-gradient">Objective: Help our clients effectively launch their products and services in the market</span></h4>
+                                        <p style="margin-bottom: 0px"><strong>Reporting Automation</strong></p>
+                                        <ul>
+                                            <li>Implementation of automation systems to generate regular activity and financial reports, enabling a clear and continuous view of company performance. These tools facilitate data consolidation and trend analysis, crucial for strategic business management.</li>
+                                        </ul>
+                                        <p style="margin-bottom: 0px"><strong>Activity Tracking Dashboards</strong></p>
+                                        <ul>
+                                            <li>Creation of interactive dashboards that reflect real-time company performance against set objectives. These dashboards incorporate alert sliders that signal deviations and allow for quick response to unforeseen changes.</li>
+                                        </ul>
+                                        <p style="margin-bottom: 0px"><strong>Alert and Objective Threshold Setting</strong></p>
+                                        <ul>
+                                            <li>Configuration of alert thresholds to initiate proactive
 
-
-
-
-
-                                                        <!-- Start Seperator Area  -->
-            <div class="rbt-separator-mid">
-                <div class="container">
-                    <hr class="rbt-separator m-0">
-                </div>
-            </div>
-            <!-- End Seperator Area  -->
-
-            <!-- Start tab Style Two  -->
-            <div id="f1" class="rainbow-tab-area rainbow-section-gap">
-                <div class="container">
-                    <div class="row mb--40">
-                        <div class="col-lg-12">
-                            <div class="section-title text-center" data-sal="slide-up" data-sal-duration="700" data-sal-delay="100">
-                                <h2 class="title w-600 mb--20">Implantation d'entreprises</h2>
-                                <h4 class="subtitle "><span class="theme-gradient">Objectif : Faciliter l'établissement et l'expansion des entreprises selon son activité et ses 
-                                    besoins.</span></h4>
-                                <p>Profitez de notre expertise locale et internationale pour établir ou étendre votre entreprise. 
-                                    De la création à l'implantation, nous simplifions le processus.<br><br>
-                                    Exploitez notre connaissance approfondie du cadre réglementaire et commercial via nos partenaires pour 
-                                    établir ou étendre votre entreprise avec assurance et conformité.<br><br>
-                                    Nous facilitons non seulement la création de votre entreprise mais optimisons également 
-                                    votre structure fiscale et juridique pour profiter pleinement des avantages commerciaux des 
-                                    meilleures régions entrepreneuriales au monde. Notre accompagnement inclut des conseils 
-                                    sur les régulations locales
-                                    </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="row row row--30 align-items-center">
-                            <div class="col-lg-5 order-1 order-lg-2">
-                                <img class="radius-small" src="assets/images/tab/tabs-05.webp" alt="Corporate Template">
-                            </div>
-
-                            <div class="col-lg-7 mt_md--40 mt_sm--40 order-2 order-lg-1">
-                                <div class="rainbow-default-tab style-two">
-                                    <ul class="nav nav-tabs tab-button" role="tablist">
-                                        <li class="nav-item tabs__tab " role="presentation">
-                                            <button class="nav-link active" id="ea-tab" data-bs-toggle="tab" data-bs-target="#ea" type="button" role="tab" aria-controls="ea" aria-selected="true">Conseil juridique et fiscal</button>
-                                        </li>
-                                        <li class="nav-item tabs__tab " role="presentation">
-                                            <button class="nav-link" id="eb-tab" data-bs-toggle="tab" data-bs-target="#eb" type="button" role="tab" aria-controls="eb" aria-selected="false">Sélection de la zone</button>
-                                        </li>
-                                        <li class="nav-item tabs__tab " role="presentation">
-                                            <button class="nav-link" id="ec-tab" data-bs-toggle="tab" data-bs-target="#ec" type="button" role="tab" aria-controls="ec" aria-selected="false">Gestion des démarches administratives</button>
-                                        </li>
-                                        <li class="nav-item tabs__tab " role="presentation">
-                                            <button class="nav-link" id="ed-tab" data-bs-toggle="tab" data-bs-target="#ed" type="button" role="tab" aria-controls="ed" aria-selected="false">Intégration locale</button>
-                                        </li>
-                                        <li class="nav-item tabs__tab " role="presentation">
-                                            <button class="nav-link" id="ee-tab" data-bs-toggle="tab" data-bs-target="#ee" type="button" role="tab" aria-controls="ee" aria-selected="false">Réseau local</button>
-                                        </li>
-                                    </ul>
-                                    <div class="rainbow-tab-content tab-content">
-                                        <div class="tab-pane fade show active" id="ea" role="tabpanel" aria-labelledby="ea-tab">
-                                            <p> Assistance sur les aspects légaux et fiscaux de l'établissement 
-                                                d'une entreprise.</p>
-                                        </div>
-
-                                        <div class="tab-pane fade" id="eb" role="tabpanel" aria-labelledby="eb">
-                                            <p>Aide à la sélection de la zone la plus adaptée aux besoins de 
-                                                l'entreprise.</p>
-                                        </div>
-
-                                        <div class="tab-pane fade" id="ec" role="tabpanel" aria-labelledby="ec-tab">
-                                            <p> Support dans les démarches administratives 
-                                                pour la création d'entreprise.</p>
-                                        </div>
-                                        <div class="tab-pane fade" id="ed" role="tabpanel" aria-labelledby="ed-tab">
-                                            <p>Conseils sur l'adaptation culturelle et commerciale dans la région.</p>
-                                        </div>
-                                            <div class="tab-pane fade" id="ee" role="tabpanel" aria-labelledby="ee-tab">
-                                                    <p>Introduction à des réseaux d'affaires locaux et à des partenaires potentiels.
-                                                    </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    
-                                </div>
-                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Start tab Style Two  -->
-
-                <!-- Start tab Style One  -->
-                <div id="b1" class="rainbow-tab-area rainbow-section-gap">
-                    <div class="container">
-                        <div class="row mb--40">
-                            <div class="col-lg-12">
-                                <div class="section-title text-center" data-sal="slide-up" data-sal-duration="700" data-sal-delay="100">
-                                    <h2 class="title w-600 mb--20">Governance D'Entreprise</h2>
-                                    <h4 class="subtitle "><span class="theme-gradient">Objectif : Améliorer la structure organisationnelle et la conformité de l'entreprise pour une 
-                                        gestion plus efficace et responsable.</span></h4>
-                                    <p>Nos consultants spécialisés en gouvernance d'entreprise vous aident à structurer ou 
-                                        restructurer votre organisation pour une efficacité maximale, en assurant conformité et 
-                                        intégrité à chaque étape.<br><br>
-                                        Améliorez la structure et l’organisation de votre entreprise avec nos services de 
-                                        gouvernance d'entreprise. Nous vous aidons à établir des pratiques solides qui favorisent la 
-                                        transparence et la responsabilité.<br><br>
-                                        Notre conseil en gouvernance transforme votre structure organisationnelle pour améliorer 
-                                        l'efficacité opérationnelle, les processus de prises de décisions et les relations avec les 
-                                        clients, fournisseurs et partenaires.
-                                        </p>
-                                </div>
-                            </div>
-                        </div>
-    
-                        <div class="row row row--30 align-items-center">
-                            <div class="col-lg-5">
-                                <img class="radius-small" src="assets/images/tab/tabs-02.jpg" alt="Corporate Template">
-                            </div>
-                            <div class="col-lg-7 mt_md--40 mt_sm--40 order-2 order-lg-1">
-                                <div class="rainbow-default-tab">
-                                    <ul class="nav nav-tabs tab-button" role="tablist">
-                                        <li class="nav-item tabs__tab " role="presentation">
-                                            <button class="nav-link active" id="ca-tab" data-bs-toggle="tab" data-bs-target="#ca" type="button" role="tab" aria-controls="ca" aria-selected="true">Audit de conformité</button>
-                                        </li>
-                                        <li class="nav-item tabs__tab " role="presentation">
-                                            <button class="nav-link" id="cc-tab" data-bs-toggle="tab" data-bs-target="#cc" type="button" role="tab" aria-controls="cc" aria-selected="false">Formation des dirigeants</button>
-                                        </li>
-                                        <li class="nav-item tabs__tab " role="presentation">
-                                            <button class="nav-link" id="cb-tab" data-bs-toggle="tab" data-bs-target="#cb" type="button" role="tab" aria-controls="cb" aria-selected="false">Développement de politiques internes</button>
-                                        </li>
-                                        <li class="nav-item tabs__tab " role="presentation">
-                                            <button class="nav-link" id="ce-tab" data-bs-toggle="tab" data-bs-target="#ce" type="button" role="tab" aria-controls="ce" aria-selected="false">Rapports réguliers</button>
-                                        </li>
-                                        <li class="nav-item tabs__tab " role="presentation">
-                                            <button class="nav-link" id="cd-tab" data-bs-toggle="tab" data-bs-target="#cd" type="button" role="tab" aria-controls="cd" aria-selected="false">Optimisation des processus décisionnels</button>
-                                        </li>
-                                    </ul>
-                                    <div class="rainbow-tab-content tab-content">
-                                        <div class="tab-pane fade show active" id="ca" role="tabpanel" aria-labelledby="ca-tab">
-                                            <p> Évaluation des pratiques actuelles en termes de gouvernance 
-                                                d'entreprise.</p>
-                                        </div>
-    
-                                        <div class="tab-pane fade" id="cb" role="tabpanel" aria-labelledby="cb-tab">
-                                            <p>Création et mise à jour de politiques pour 
-                                                améliorer la transparence et la responsabilité.</p>
-                                        </div>
-    
-                                        <div class="tab-pane fade" id="cc" role="tabpanel" aria-labelledby="cc-tab">
-                                            <p>Sessions de formation pour les cadres et les membres du 
-                                                conseil d'administration sur les meilleures pratiques en matière de gouvernance.</p>
-                                        </div>
-                                        <div class="tab-pane fade" id="cd" role="tabpanel" aria-labelledby="cd-tab">
-                                            <p>Révision des processus pour assurer des 
-                                                prises de décisions rapides et efficaces.</p>
-                                        </div>
-                                        <div class="tab-pane fade" id="ce" role="tabpanel" aria-labelledby="ce-tab">
-                                            <p>Mise en place de systèmes de reporting pour le suivi des 
-                                                performances et la conformité réglementaire.</p>
-                                        </div>
+corrective actions, and objectives to drive performance and growth. This aspect is crucial for team responsiveness and informed decision-making by management.</li>
+                                        </ul>
+                                        <p style="margin-bottom: 0px"><strong>Data and Asset Security</strong></p>
+                                        <ul>
+                                            <li>Development of protocols and processes to ensure the security of company information and assets. We implement cutting-edge cybersecurity solutions to protect against intrusions, data loss, and fraud risks.</li>
+                                        </ul>
+                                        <p style="margin-bottom: 0px"><strong>Information Security Reinforcement</strong></p>
+                                        <ul>
+                                            <li>Application of rigorous measures to guarantee the integrity and confidentiality of sensitive data, essential for maintaining stakeholder trust and regulatory compliance.</li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
                         </div>
-    
                     </div>
-                </div>
-                <!-- Start tab Style One  -->
-                            <!-- Start Seperator Area  -->
-            <div class="rbt-separator-mid">
-                <div class="container">
-                    <hr class="rbt-separator m-0">
-                </div>
-            </div>
-            <!-- End Seperator Area  -->
+                    <!-- End Elements Area  -->
 
-            
-                        <div id="d1" class="rainbow-elements-area rainbow-section-gap">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-lg-12">
-                                        <div class="entry-content">
-                                            <h2 style="text-align: center;">Optimisation de la Gestion et Sécurisation des Données
-                                                Automatisation et Suivi des Performances</h2>
-                                            <ul>
-                                                <li>Chez Golden Gate Management, nous comprenons que la précision de l'information et la 
-                                                    sécurité des données sont des piliers fondamentaux pour la croissance et la stabilité des 
-                                                    entreprises. C’est pourquoi nous offrons des solutions avancées d'automatisation des 
-                                                    reportings et de sécurisation des données, conçues pour renforcer la gouvernance interne et 
-                                                    accélérer les prises de décisions stratégiques.</li>
-                                                <li>Nos services d'automatisation vous permettent de bénéficier de reportings d'activités et 
-                                                    financiers précis et en temps réel, grâce à des tableaux de bord sophistiqués et des 
-                                                    systèmes d'alertes automatisés. Ces outils sont essentiels pour maintenir une vue claire sur 
-                                                    les performances de votre entreprise, vous alertant immédiatement en cas de déviations afin 
-                                                    de permettre une réaction rapide et mesurée</li>
-                                                <li>En parallèle, nous mettons un point d'honneur à assurer la sécurité de vos informations et de 
-                                                    vos actifs. Nos stratégies de sécurisation des données comprennent des audits de sécurité 
-                                                    réguliers, des formations dédiées pour vos équipes, et l'implémentation de technologies de 
-                                                    pointe pour protéger vos ressources contre tout accès non autorisé ou perte d'informations.</li>
-                                                <li>Avec Golden Gate Management, vous êtes équipés pour faire face aux défis d'aujourd'hui et 
-                                                        de demain, garantissant non seulement la conformité et la performance, mais aussi une 
-                                                        tranquillité d'esprit inégalée en matière de sécurité des données.</li>
-                                            </ul>
-            
-                                            <h4 class="subtitle" style="text-align: center;"><span class="theme-gradient">Objectif : Aider nos clients à lancer efficacement leurs produits et services sur le marché</span></h4>
-                                            <p style="margin-bottom: 0px"><strong>Automatisation des Reportings</strong></p>
-                                            <ul>
-                                                <li>Mise en place de systèmes d'automatisation pour 
-                                                    générer des reportings d'activité et financiers réguliers, permettant une vision claire et 
-                                                    continue des performances de l'entreprise. Ces outils facilitent la consolidation des 
-                                                    données et l'analyse des tendances, essentielles pour le pilotage stratégique de 
-                                                    l'entreprise.</li>
-                                            </ul>
-                                            <p style="margin-bottom: 0px"><strong>Tableaux de Suivi d'Activité</strong></p>
-                                            <ul>
-                                                <li>Création de tableaux de bord interactifs qui reflètent en 
-                                                    temps réel les performances de l'entreprise par rapport aux objectifs fixés. Ces tableaux 
-                                                    intègrent des curseurs d'alertes qui signalent les écarts et permettent une réaction rapide 
-                                                    aux changements imprévus.</li>
-                                            </ul>
-                                            <p style="margin-bottom: 0px"><strong>Établissement de Curseurs d'Alertes et d'Objectifs</strong></p>
-                                            <ul>
-                                                <li>Configuration de seuils d'alerte pour 
-                                                    initier des actions correctives proactives, et d'objectifs pour stimuler la performance et la 
-                                                    croissance. Cet aspect est crucial pour la réactivité des équipes et la prise de décision 
-                                                    éclairée de la direction.</li>
-                                            </ul>
-                                            <p style="margin-bottom: 0px"><strong>Sécurisation des Données et des Actifs</strong></p>
-                                            <ul>
-                                                <li>Développement de protocoles et de processus 
-                                                    pour assurer la sécurité des informations et des actifs de l'entreprise. Nous mettons en 
-                                                    œuvre des solutions de cybersécurité de pointe pour protéger contre les intrusions, les 
-                                                    pertes de données et les risques de fraude.</li>
-                                            </ul>
-                                            <p style="margin-bottom: 0px"><strong>Renforcement de la Sécurité de l'Information</strong></p>
-                                            <ul>
-                                                <li>Application de mesures rigoureuses pour 
-                                                    garantir l'intégrité et la confidentialité des données sensibles, essentielles au maintien de la 
-                                                    confiance des parties prenantes et à la conformité réglementaire.</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Elements Area  -->
-
-                                                <!-- Start Seperator Area  -->
-                                                <div class="rbt-separator-mid">
-                                                    <div class="container">
-                                                        <hr class="rbt-separator m-0">
-                                                    </div>
+                                            <!-- Start Seperator Area  -->
+                                            <div class="rbt-separator-mid">
+                                                <div class="container">
+                                                    <hr class="rbt-separator m-0">
                                                 </div>
-                                                <!-- End Seperator Area  -->
+                                            </div>
+                                            <!-- End Seperator Area  -->
 
-                   <!-- Start Call To Action  -->
-         <div style="padding-bottom: 80px;"class="rainbow-callto-action-area">
-            <div class="wrapper">
-                <div class="rainbow-callto-action clltoaction-style-default style-5">
-                    <div class="container">
-                        <div class="row row--0 align-items-center content-wrapper theme-shape">
-                            <div class="col-lg-12">
-                                <div class="inner">
-                                    <div class="content text-center" data-sal="slide-up" data-sal-duration="700">
-                                        <h2 class="title">Découvrez comment nous pouvons vous aider</h2>
-                                        <h6 class="subtitle"></h6>
-                                        <div class="call-to-btn text-center">
-                                            <a class="btn-default btn-icon" href="contact.html">Contactez-nous<i
-                                                    class="icon feather-arrow-right"></i>
-                                            </a>
-                                        </div>
+               <!-- Start Call To Action  -->
+     <div style="padding-bottom: 80px;"class="rainbow-callto-action-area">
+        <div class="wrapper">
+            <div class="rainbow-callto-action clltoaction-style-default style-5">
+                <div class="container">
+                    <div class="row row--0 align-items-center content-wrapper theme-shape">
+                        <div class="col-lg-12">
+                            <div class="inner">
+                                <div class="content text-center" data-sal="slide-up" data-sal-duration="700">
+                                    <h2 class="title">Discover how we can help you</h2>
+                                    <h6 class="subtitle"></h6>
+                                    <div class="call-to-btn text-center">
+                                        <a class="btn-default btn-icon" href="contact.html">Contact us<i
+                                                class="icon feather-arrow-right"></i>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -706,109 +540,108 @@
                 </div>
             </div>
         </div>
-        <!-- End Call To Action  -->
+    </div>
+    <!-- End Call To Action  -->
 
         <!-- Start Footer Area  -->
-                        <!-- Start Footer Area  -->
-                        <footer class="rainbow-footer footer-style-default variation-two">
-                            <div class="rainbow-callto-action clltoaction-style-default style-7">
-                                <div class="container">
-                                    <div class="row row--0 align-items-center content-wrapper">
-                                        <div class="col-lg-8 col-md-8">
-                                            <div class="inner">
-                                                <div class="content text-left">
-                                                    <div class="logo">
-                                                        <a href="index.html">
-                                                            <img class="logo-light" src="assets/images/logo/logo.png" alt="Corporate Logo">
-                                                            <img class="logo-dark" src="assets/images/logo/logo-dark.png" alt="Corporate Logo">
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-4 col-md-4" data-sal="slide-up" data-sal-duration="400" data-sal-delay="150">
-                                            <div class="call-to-btn text-left mt_sm--20 text-lg-right">
-                                                <a class="btn-default" href="contact.html">Contactez-nous
-                                                    <i class="feather-arrow-right"></i>
-                                                </a>
-                                            </div>
-                                        </div>
+        <footer class="rainbow-footer footer-style-default variation-two">
+            <div class="rainbow-callto-action clltoaction-style-default style-7">
+                <div class="container">
+                    <div class="row row--0 align-items-center content-wrapper">
+                        <div class="col-lg-8 col-md-8">
+                            <div class="inner">
+                                <div class="content text-left">
+                                    <div class="logo">
+                                        <a href="index.html">
+                                            <img class="logo-light" src="assets/images/logo/logo.png" alt="Corporate Logo">
+                                            <img class="logo-dark" src="assets/images/logo/logo-dark.png" alt="Corporate Logo">
+                                        </a>
                                     </div>
                                 </div>
                             </div>
-                            <div class="footer-top">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-lg-2 col-md-6 col-sm-6 col-12">
-                                            <div class="rainbow-footer-widget">
-                                                <h4 class="title"><a href="services.html">Services</a></h4>
-                                                <div class="inner">
-                                                    <ul class="footer-link link-hover">
-                                                        <li><a href="services.html#d1">Incubation de Projets</a></li>
-                                                        <li><a href="services.html#b1">Gouvernance d'entreprise</a></li>
-                                                        <li><a href="services.html#c1">Lancement d'activites</a></li>
-                                                        <li><a href="services.html#d1">Optimistation/Securisation...</a></li>
-                                                        
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-2 col-md-6 col-sm-6 col-12">
-                                            <div class="rainbow-footer-widget">
-                                                <div class="widget-menu-top">
-                                                    <h4 class="title">...</h4>
-                                                    <div class="inner">
-                                                        <ul class="footer-link link-hover">
-                                                            <li><a href="services.html#e1">Études et diagnostics</a></li>
-                                                            <li><a href="services.html#f1">Implantation</a></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-2 col-md-6 col-sm-6 col-12">
-                                            <div class="rainbow-footer-widget">
-                                                <h4 class="title"><a href="servicesext.html">Services Partenaires</a></h4>
-                                                <div class="inner">
-                                                    <ul class="footer-link link-hover">
-                                                        <li><a href="servicesext.html#a2">Conseils juridiques</a></li>
-                                                        <li><a href="servicesext.html#b2">Création d'entreprise</a></li>
-                                                        <li><a href="servicesext.html#c2">Visas</a></li>
-                                                        <li><a href="servicesext.html#d2">Licences et autorisations</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-2 col-md-6 col-sm-6 col-12">
-                                            <div class="rainbow-footer-widget">
-                                                <h4 class="title">...</h4>
-                                                <div class="inner">
-                                                    <ul class="footer-link link-hover">
-                                                        <li><a href="servicesext.html#e2">Aide à la Création de Programmes de Formation</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
-                                            <div class="rainbow-footer-widget">
-                                                <h4 class="title">Stay With Us.</h4>
-                                                <div class="inner">
-                                                    <ul class="social-icon social-default justify-content-start">
-                                                        <li><a href="https://www.linkdin.com/">
-                                                                <i class="feather-linkedin"></i>
-                                                            </a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4" data-sal="slide-up" data-sal-duration="400" data-sal-delay="150">
+                            <div class="call-to-btn text-left mt_sm--20 text-lg-right">
+                                <a class="btn-default" href="contact.html">Contact Us
+                            <i class="feather-arrow-right"></i>
+                        </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-2 col-md-6 col-sm-6 col-12">
+                            <div class="rainbow-footer-widget">
+                                <h4 class="title"><a href="services.html">Internal Services</a></h4>
+                                <div class="inner">
+                                    <ul class="footer-link link-hover">
+                                        <li><a href="services.html#d1">Project Incubation</a></li>
+                                        <li><a href="services.html#b1">Corporate Governance</a></li>
+                                        <li><a href="services.html#c1">Business Launch</a></li>
+                                        <li><a href="services.html#d1">Optimization/Security...</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-6 col-sm-6 col-12">
+                            <div class="rainbow-footer-widget">
+                                <div class="widget-menu-top">
+                                    <h4 class="title">...</h4>
+                                    <div class="inner">
+                                        <ul class="footer-link link-hover">
+                                            <li><a href="services.html#e1">Studies and Diagnostics</a></li>
+                                            <li><a href="services.html#f1">Implantation</a></li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
-                        </footer>
-                        <!-- End Footer Area  -->
+                        </div>
+                        <div class="col-lg-2 col-md-6 col-sm-6 col-12">
+                            <div class="rainbow-footer-widget">
+                                <h4 class="title"><a href="servicesext.html">Partner Services</a></h4>
+                                <div class="inner">
+                                    <ul class="footer-link link-hover">
+                                        <li><a href="servicesext.html#a2">Legal Advice</a></li>
+                                        <li><a href="servicesext.html#b2">Business Creation</a></li>
+                                        <li><a href="servicesext.html#c2">Visas</a></li>
+                                        <li><a href="servicesext.html#d2">Licenses and Authorizations</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-6 col-sm-6 col-12">
+                            <div class="rainbow-footer-widget">
+                                <h4 class="title">...</h4>
+                                <div class="inner">
+                                    <ul class="footer-link link-hover">
+                                        <li><a href="servicesext.html#e2">Assistance in Creating Training Programs</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div class="rainbow-footer-widget">
+                                <h4 class="title">Stay With Us.</h4>
+                                <div class="inner">
+                                    <ul class="social-icon social-default justify-content-start">
+                                        <li>
+                                            <a href="https://ae.linkedin.com/company/golden-gate-management">
+                                                <i class="feather-linkedin"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
         <!-- End Footer Area  -->
-
+        <!-- End Footer Area  -->
         <!-- Start Copy Right Area  -->
         <div class="copyright-area copyright-style-one">
             <div class="container">
@@ -817,13 +650,13 @@
                         <div class="copyright-left">
                             <ul class="ft-menu link-hover">
                                 <li>
-                                    <a href="privacy-policy.html">Politique De Confidentialité</a>
+                                    <a href="privacy-policy.html">Privacy Policy</a>
                                 </li>
                                 <li>
-                                    <a href="privacy-policy.html">Mentions Légales</a>
+                                    <a href="privacy-policy.html">Legal Notice</a>
                                 </li>
                                 <li>
-                                    <a href="contact.html">Contactez-nous</a>
+                                    <a href="contact.html">Contact Us</a>
                                 </li>
                             </ul>
                         </div>
@@ -837,7 +670,6 @@
             </div>
         </div>
         <!-- End Copy Right Area  -->
-
     </main>
     <!-- All Scripts  -->
     <!-- Start Top To Bottom Area  -->

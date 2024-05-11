@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-style-mode" content="1"> <!-- 0 == light, 1 == dark -->
+    <meta name="theme-style-mode" content="1">
+    <!-- 0 == light, 1 == dark -->
 
     <title>Golden Gate Management</title>
     <!-- Favicon -->
@@ -23,238 +24,339 @@
 
 <body>
     <main class="page-wrapper">
-       <!-- Start Header Area  -->
-       <header class="rainbow-header header-default header-not-transparent header-sticky">
-        <div class="container position-relative">
-            <div class="row align-items-center row--0">
-                <div class="col-lg-3 col-md-6 col-4">
+        <!-- Start Header Area  -->
+        <header class="rainbow-header header-default header-not-transparent header-sticky">
+            <div class="container position-relative">
+                <div class="row align-items-center row--0">
+                    <div class="col-lg-3 col-md-6 col-4">
+                        <div class="logo">
+                            <a href="index.html">
+                                <img class="logo-light" src="assets/images/logo/logo.png" alt="Corporate Logo">
+                                <img class="logo-dark" src="assets/images/logo/logo-dark.png" alt="Corporate Logo">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-9 col-md-6 col-8 position-static">
+                        <div class="header-right">
+
+                            <nav class="mainmenu-nav d-none d-lg-block">
+                                <ul class="mainmenu">
+                                    <li><a href="contactfr.html">FR</a></li>
+                                    <li class="with-megamenu has-menu-child-item position-relative"><a href="index.html">Home</a>
+                                    </li>
+                                    <li><a href="about.html">About</a></li>
+
+
+                                    <li class="has-droupdown has-menu-child-item"><a href="services.html">Internal Services</a>
+                                        <ul class="submenu">
+                                            <li><a href="services.html#d1">Project Incubation</a></li>
+                                            <li><a href="services.html#e1">Studies and Diagnostics</a></li>
+                                            <li><a href="services.html#c1">Business Launch</a></li>
+                                            <li><a href="services.html#f1">Implementation</a></li>
+                                            <li><a href="services.html#b1">Corporate Governance</a></li>
+                                            <li><a href="services.html#d1">Optimization/Securing...</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="has-droupdown has-menu-child-item"><a href="servicesext.html">Partner Services</a>
+                                        <ul class="submenu">
+                                            <li><a href="servicesext.html#f2">Fundraising</a></li>
+                                            <li><a href="servicesext.html#b2">Business Creation</a></li>
+                                            <li><a href="servicesext.html#a2">Legal Advice</a></li>
+                                            <li><a href="servicesext.html#d2">Licenses and Authorizations</a></li>
+                                            <li><a href="servicesext.html#e2">Assistance in Program Formation</a></li>
+                                            <li><a href="servicesext.html#c2">Visas</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </nav>
+
+                            <!-- Start Header Btn  -->
+                            <div class="header-btn">
+                                <a class="btn-default btn-small round" href="contact.html">Contact Us</a>
+                            </div>
+                            <!-- End Header Btn  -->
+
+                            <!-- Start Mobile-Menu-Bar -->
+                            <div class="mobile-menu-bar ml--5 d-block d-lg-none">
+                                <div class="hamberger">
+                                    <button class="hamberger-button">
+                                        <i class="feather-menu"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <!-- Start Mobile-Menu-Bar -->
+
+                            <div id="my_switcher" class="my_switcher">
+                                <ul>
+                                    <li>
+                                        <a href="javascript: void(0);" data-theme="light" class="setColor light">
+                                            <img class="sun-image" src="assets/images/icons/sun-01.svg" alt="Sun images">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript: void(0);" data-theme="dark" class="setColor dark">
+                                            <img class="Victor Image" src="assets/images/icons/vector.svg" alt="Vector Images">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- End Header Area  -->
+        <div class="popup-mobile-menu">
+            <div class="inner">
+                <div class="header-top">
                     <div class="logo">
                         <a href="index.html">
                             <img class="logo-light" src="assets/images/logo/logo.png" alt="Corporate Logo">
                             <img class="logo-dark" src="assets/images/logo/logo-dark.png" alt="Corporate Logo">
                         </a>
                     </div>
+                    <div class="close-menu">
+                        <button class="close-button">
+                            <i class="feather-x"></i>
+                        </button>
+                    </div>
                 </div>
-                <div class="col-lg-9 col-md-6 col-8 position-static">
-                    <div class="header-right">
+                <ul class="mainmenu">
+                    <li class=""><a href="index.html">Home</a>
 
-                        <nav class="mainmenu-nav d-none d-lg-block">
-                            <ul class="mainmenu">
-                                <li class="with-megamenu has-menu-child-item position-relative"><a href="index.html">Home</a>
-                                </li>
-                                <li><a href="about.html">A Propos</a></li>
+                    </li>
+                    <li><a href="about.html">About</a></li>
 
+                    <li class="has-droupdown has-menu-child-item"><a href="services.html">Services</a>
+                        <ul class="submenu">
+                            <li><a href="services.html#d1">Project Incubation</a></li>
+                            <li><a href="services.html#b1">Corporate Governance</a></li>
+                            <li><a href="services.html#c1">Business Launch</a></li>
+                            <li><a href="services.html#d1">Optimization/Securing...</a></li>
+                            <li><a href="services.html#e1">Studies and Diagnostics</a></li>
+                            <li><a href="services.html#f1">Creation and Implementation</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-droupdown has-menu-child-item"><a href="servicesext.html">Partner Services</a>
+                        <ul class="submenu">
+                            <li><a href="servicesext.html#f2">Fundraising</a></li>
+                            <li><a href="servicesext.html#a2">Legal Advice</a></li>
+                            <li><a href="servicesext.html#b2">Business</a></li>
+                            <li><a href="servicesext.html#b2">Business Creation</a></li>
+                            <li><a href="servicesext.html#c2">Assistance in Program Formation</a></li>
+                            <li><a href="servicesext.html#d2">Visas</a></li>
+                            <li><a href="servicesext.html#e2">Licenses and Authorizations</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="contactfr.html">FR</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- Start Theme Style  -->
+        <div>
+            <div class="rainbow-gradient-circle"></div>
+            <div class="rainbow-gradient-circle theme-pink"></div>
+        </div>
+        <!-- End Theme Style  -->
 
-                                <li class="has-droupdown has-menu-child-item"><a href="services.html">Services Internes</a>
-                                    <ul class="submenu">
-                                        <li><a href="services.html#d1">Incubation de Projets</a></li>
-                                        <li><a href="services.html#e1">Études et diagnostics</a></li>
-                                        <li><a href="services.html#c1">Lancement d'activites</a></li>
-                                        <li><a href="services.html#f1">Implantation</a></li>
-                                        <li><a href="services.html#b1">Gouvernance d'entreprise</a></li>
-                                        <li><a href="services.html#d1">Optimistation/Securisation...</a></li>
-                                    </ul>
-                                </li>
-                                <li class="has-droupdown has-menu-child-item"><a href="servicesext.html">Services Partenaires</a>
-                                    <ul class="submenu">
-                                        <li><a href="servicesext.html#f2">Levée de Fonds</a></li>
-                                        <li><a href="servicesext.html#b2">Création d'entreprise</a></li>
-                                        <li><a href="servicesext.html#a2">Conseils juridiques</a></li>
-                                        <li><a href="servicesext.html#d2">Licences et autorisations</a></li>
-                                        <li><a href="servicesext.html#e2">Aide à la Création de Programmes de Formation</a></li>
-                                        <li><a href="servicesext.html#c2">Visas</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </nav>
-
-                        <!-- Start Header Btn  -->
-                        <div class="header-btn">
-                            <a class="btn-default btn-small round" href="contact.html">Contactez-nous</a>
+    <!-- Start Contact Area  -->
+    <div class="main-content">
+    
+        <div class="rainbow-contact-area rainbow-section-gap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 mb--40">
+                        <div class="section-title text-center" data-sal="slide-up" data-sal-duration="700" data-sal-delay="100">
+                            <h4 class="subtitle "><span class="theme-gradient">Contact Form</span></h4>
+                            <h2 class="title w-600 mb--20">Contact us here.</h2>
                         </div>
-                        <!-- End Header Btn  -->
-
-                        <!-- Start Mobile-Menu-Bar -->
-                        <div class="mobile-menu-bar ml--5 d-block d-lg-none">
-                            <div class="hamberger">
-                                <button class="hamberger-button">
-                                    <i class="feather-menu"></i>
+                    </div>
+                </div>
+                <div class="row row--15">
+                    <div class="col-lg-12">
+                        <div class="rainbow-contact-address mt_dec--30">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6 col-12">
+                                    <div class="rainbow-address">
+                                        <div class="icon">
+                                            <i class="feather-headphones"></i>
+                                        </div>
+                                        <div class="inner">
+                                            <h4 class="title">Contact</h4>
+                                            <p><a href="#">Telegram:</a></p>
+                                            <p><a href="#">@GoldenGateManagement</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-12">
+                                    <div class="rainbow-address">
+                                        <div class="icon">
+                                            <i class="feather-mail"></i>
+                                        </div>
+                                        <div class="inner">
+                                            <h4 class="title">Email Address</h4>
+                                            <p><a href="mailto:contact@goldengatefirm.com">contact@goldengatefirm.com</a></p>
+                                            <p><br></a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-12">
+                                    <div class="rainbow-address">
+                                        <div class="icon">
+                                            <i class="feather-map-pin"></i>
+                                        </div>
+                                        <div class="inner">
+                                            <h4 class="title">Location</h4>
+                                            <p>Dubai, Fujairah,<br>United Arab Emirates</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="row mt--40 row--15">
+                    <div class="col-lg-7">
+                        <form class="contact-form-1 rainbow-dynamic-form" id="contact-form" method="POST" action="mail.php">
+                            <div class="form-group">
+                                <input type="text" name="contact-name" id="contact-name" placeholder="Name">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name="contact-phone" id="contact-phone" placeholder="Phone Number">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="contact-email" name="contact-email" placeholder="Email">
+                            </div>
+    
+                            <div class="form-group">
+                                <input type="text" id="subject" name="subject" placeholder="Subject">
+                            </div>
+    
+                            <div class="form-group">
+                                <textarea name="contact-message" id="contact-message" placeholder="Your Message"></textarea>
+                            </div>
+    
+                            <div class="form-group">
+                                <button name="submit" type="submit" id="submit" class="btn-default btn-large rainbow-btn">
+                                    <span>Send</span>
                                 </button>
                             </div>
+                        </form>
+                    </div>
+                    <div class="col-lg-5 mt_md--30 mt_sm--30">
+                        <div class="google-map-style-1">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d231281.00130694237!2d55.0623367973843!3d25.075931080967084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43496ad9c645%3A0xbde66e5084295162!2sDubai%20-%20United%20Arab%20Emirates!5e0!3m2!1sen!2sbd!4v1714403953116!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
-                        <!-- Start Mobile-Menu-Bar -->
-
-                        <div id="my_switcher" class="my_switcher">
-                            <ul>
-                                <li>
-                                    <a href="javascript: void(0);" data-theme="light" class="setColor light">
-                                        <img class="sun-image" src="assets/images/icons/sun-01.svg" alt="Sun images">
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="javascript: void(0);" data-theme="dark" class="setColor dark">
-                                        <img class="Victor Image" src="assets/images/icons/vector.svg" alt="Vector Images">
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-
                     </div>
                 </div>
             </div>
         </div>
-    </header>
-    <!-- End Header Area  -->
-    <div class="popup-mobile-menu">
-        <div class="inner">
-            <div class="header-top">
-                <div class="logo">
-                    <a href="index.html">
-                        <img class="logo-light" src="assets/images/logo/logo.png" alt="Corporate Logo">
-                        <img class="logo-dark" src="assets/images/logo/logo-dark.png" alt="Corporate Logo">
-                    </a>
-                </div>
-                <div class="close-menu">
-                    <button class="close-button">
-                        <i class="feather-x"></i>
-                    </button>
+    
+    </div>
+    <!-- End Contact Area  -->
+
+        <!-- Start Footer Area  -->
+        <footer class="rainbow-footer footer-style-default variation-two">
+            <div class="rainbow-callto-action clltoaction-style-default style-7">
+                <div class="container">
+                    <div class="row row--0 align-items-center content-wrapper">
+                        <div class="col-lg-8 col-md-8">
+                            <div class="inner">
+                                <div class="content text-left">
+                                    <div class="logo">
+                                        <a href="index.html">
+                                            <img class="logo-light" src="assets/images/logo/logo.png" alt="Corporate Logo">
+                                            <img class="logo-dark" src="assets/images/logo/logo-dark.png" alt="Corporate Logo">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4" data-sal="slide-up" data-sal-duration="400" data-sal-delay="150">
+                            <div class="call-to-btn text-left mt_sm--20 text-lg-right">
+                                <a class="btn-default" href="contact.html">Contact Us
+                            <i class="feather-arrow-right"></i>
+                        </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <ul class="mainmenu">
-                <li class=""><a href="index.html">Home</a>
-
-                </li>
-                <li><a href="about.html">A Propos</a></li>
-
-                <li class="has-droupdown has-menu-child-item"><a href="services.html">Services</a>
-                    <ul class="submenu">
-                        <li><a href="services.html#d1">Incubation de Projets</a></li>
-                        <li><a href="services.html#b1">Gouvernance d'entreprise</a></li>
-                        <li><a href="services.html#c1">Lancement d'activites</a></li>
-                        <li><a href="services.html#d1">Optimistation/Securisation...</a></li>
-                        <li><a href="services.html#e1">Études et diagnostics</a></li>
-                        <li><a href="services.html#f1">Création et implantation</a></li>
-                    </ul>
-                </li>
-                <li class="has-droupdown has-menu-child-item"><a href="servicesext.html">Services partenaires</a>
-                    <ul class="submenu">
-                            <li><a href="servicesext.html#f2">Levée de Fonds</a></li>
-                            <li><a href="servicesext.html#a2">Conseils juridiques</a></li>
-                            <li><a href="servicesext.html#b2">Création d'entreprise</a></li>
-                            <li><a href="servicesext.html#c2">Aide à la Création de Programmes de Formation</a></li>
-                            <li><a href="servicesext.html#d2">Visas</a></li>
-                            <li><a href="servicesext.html#e2">Licences et autorisations</a></li>
-                      </ul>  
-                </li>
-                <li><a href="contact.html">Contactez-nous</a></li>
-                
-        </div>
-    </div>
-    <!-- Start Theme Style  -->
-    <div>
-        <div class="rainbow-gradient-circle"></div>
-        <div class="rainbow-gradient-circle theme-pink"></div>
-    </div>
-    <!-- End Theme Style  -->
-
-        <!-- Start Contact Area  -->
-        <div class="main-content">
-
-            <div class="rainbow-contact-area rainbow-section-gap">
+            <div class="footer-top">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-12 mb--40">
-                            <div class="section-title text-center" data-sal="slide-up" data-sal-duration="700" data-sal-delay="100">
-                                <h4 class="subtitle "><span class="theme-gradient">formulaire de contact</span></h4>
-                                <h2 class="title w-600 mb--20">Contactez nous ici.</h2>
+                        <div class="col-lg-2 col-md-6 col-sm-6 col-12">
+                            <div class="rainbow-footer-widget">
+                                <h4 class="title"><a href="services.html">Internal Services</a></h4>
+                                <div class="inner">
+                                    <ul class="footer-link link-hover">
+                                        <li><a href="services.html#d1">Project Incubation</a></li>
+                                        <li><a href="services.html#b1">Corporate Governance</a></li>
+                                        <li><a href="services.html#c1">Business Launch</a></li>
+                                        <li><a href="services.html#d1">Optimization/Security...</a></li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="row row--15">
-                        <div class="col-lg-12">
-                            <div class="rainbow-contact-address mt_dec--30">
-                                <div class="row">
-                                    <div class="col-lg-4 col-md-6 col-12">
-                                        <div class="rainbow-address">
-                                            <div class="icon">
-                                                <i class="feather-headphones"></i>
-                                            </div>
-                                            <div class="inner">
-                                                <h4 class="title">Contact</h4>
-                                                <p><a href="#">Telegram:</a></p>
-                                                <p><a href="#">@GoldenGateManagement</a></p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4 col-md-6 col-12">
-                                        <div class="rainbow-address">
-                                            <div class="icon">
-                                                <i class="feather-mail"></i>
-                                            </div>
-                                            <div class="inner">
-                                                <h4 class="title">Note Adresse Mail</h4>
-                                                <p><a href="mailto:contact@goldengatefirm.com">contact@goldengatefirm.com</a></p>
-                                                <p><br></a></p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4 col-md-6 col-12">
-                                        <div class="rainbow-address">
-                                            <div class="icon">
-                                                <i class="feather-map-pin"></i>
-                                            </div>
-                                            <div class="inner">
-                                                <h4 class="title">Localisation</h4>
-                                                <p>Dubai, Fujairah,<br>United Arab Emirates</p>
-                                            </div>
-                                        </div>
+                        <div class="col-lg-2 col-md-6 col-sm-6 col-12">
+                            <div class="rainbow-footer-widget">
+                                <div class="widget-menu-top">
+                                    <h4 class="title">...</h4>
+                                    <div class="inner">
+                                        <ul class="footer-link link-hover">
+                                            <li><a href="services.html#e1">Studies and Diagnostics</a></li>
+                                            <li><a href="services.html#f1">Implantation</a></li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="row mt--40 row--15">
-                        <div class="col-lg-7">
-                            <form class="contact-form-1 rainbow-dynamic-form" id="contact-form" method="POST" action="mail.php">
-                                <div class="form-group">
-                                    <input type="text" name="contact-name" id="contact-name" placeholder="Nom">
+                        <div class="col-lg-2 col-md-6 col-sm-6 col-12">
+                            <div class="rainbow-footer-widget">
+                                <h4 class="title"><a href="servicesext.html">Partner Services</a></h4>
+                                <div class="inner">
+                                    <ul class="footer-link link-hover">
+                                        <li><a href="servicesext.html#a2">Legal Advice</a></li>
+                                        <li><a href="servicesext.html#b2">Business Creation</a></li>
+                                        <li><a href="servicesext.html#c2">Visas</a></li>
+                                        <li><a href="servicesext.html#d2">Licenses and Authorizations</a></li>
+                                    </ul>
                                 </div>
-                                <div class="form-group">
-                                    <input type="text" name="contact-phone" id="contact-phone" placeholder="Numero de Telephone">
-                                </div>
-                                <div class="form-group">
-                                    <input type="email" id="contact-email" name="contact-email" placeholder="Email">
-                                </div>
-
-                                <div class="form-group">
-                                    <input type="text" id="subject" name="subject" placeholder="Sujet">
-                                </div>
-
-                                <div class="form-group">
-                                    <textarea name="contact-message" id="contact-message" placeholder="Votre Message"></textarea>
-                                </div>
-
-                                <div class="form-group">
-                                    <button name="submit" type="submit" id="submit" class="btn-default btn-large rainbow-btn">
-                                        <span>Envoyer</span>
-                                    </button>
-                                </div>
-                            </form>
+                            </div>
                         </div>
-                        <div class="col-lg-5 mt_md--30 mt_sm--30">
-                            <div class="google-map-style-1">
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d231281.00130694237!2d55.0623367973843!3d25.075931080967084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43496ad9c645%3A0xbde66e5084295162!2sDubai%20-%20United%20Arab%20Emirates!5e0!3m2!1sen!2sbd!4v1714403953116!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <div class="col-lg-2 col-md-6 col-sm-6 col-12">
+                            <div class="rainbow-footer-widget">
+                                <h4 class="title">...</h4>
+                                <div class="inner">
+                                    <ul class="footer-link link-hover">
+                                        <li><a href="servicesext.html#e2">Assistance in Creating Training Programs</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div class="rainbow-footer-widget">
+                                <h4 class="title">Stay With Us.</h4>
+                                <div class="inner">
+                                    <ul class="social-icon social-default justify-content-start">
+                                        <li>
+                                            <a href="https://ae.linkedin.com/company/golden-gate-management">
+                                                <i class="feather-linkedin"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
-        </div>
-        <!-- End Contact Area  -->
-
-
+        </footer>
+        <!-- End Footer Area  -->
+        <!-- End Footer Area  -->
         <!-- Start Copy Right Area  -->
         <div class="copyright-area copyright-style-one">
             <div class="container">
@@ -263,13 +365,13 @@
                         <div class="copyright-left">
                             <ul class="ft-menu link-hover">
                                 <li>
-                                    <a href="privacy-policy.html">Politique De Confidentialité</a>
+                                    <a href="privacy-policy.html">Privacy Policy</a>
                                 </li>
                                 <li>
-                                    <a href="privacy-policy.html">Mentions Légales</a>
+                                    <a href="privacy-policy.html">Legal Notice</a>
                                 </li>
                                 <li>
-                                    <a href="contact.html">Contactez-nous</a>
+                                    <a href="contact.html">Contact Us</a>
                                 </li>
                             </ul>
                         </div>
@@ -283,7 +385,6 @@
             </div>
         </div>
         <!-- End Copy Right Area  -->
-
     </main>
 
 

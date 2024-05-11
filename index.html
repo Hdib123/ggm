@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-style-mode" content="1"> <!-- 0 == light, 1 == dark -->
+    <meta name="theme-style-mode" content="1">
+    <!-- 0 == light, 1 == dark -->
 
     <title>Golden Gate Management</title>
     <!-- Favicon -->
@@ -23,139 +24,142 @@
 
 <body>
     <main class="page-wrapper">
-       <!-- Start Header Area  -->
-       <header class="rainbow-header header-default header-not-transparent header-sticky">
-        <div class="container position-relative">
-            <div class="row align-items-center row--0">
-                <div class="col-lg-3 col-md-6 col-4">
+        <!-- Start Header Area  -->
+        <header class="rainbow-header header-default header-not-transparent header-sticky">
+            <div class="container position-relative">
+                <div class="row align-items-center row--0">
+                    <div class="col-lg-3 col-md-6 col-4">
+                        <div class="logo">
+                            <a href="index.html">
+                                <img class="logo-light" src="assets/images/logo/logo.png" alt="Corporate Logo">
+                                <img class="logo-dark" src="assets/images/logo/logo-dark.png" alt="Corporate Logo">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-9 col-md-6 col-8 position-static">
+                        <div class="header-right">
+
+                            <nav class="mainmenu-nav d-none d-lg-block">
+                                <ul class="mainmenu">
+                                    <li><a href="indexfr.html">FR</a></li>
+                                    <li class="with-megamenu has-menu-child-item position-relative"><a href="index.html">Home</a>
+                                    </li>
+                                    <li><a href="about.html">About</a></li>
+
+
+                                    <li class="has-droupdown has-menu-child-item"><a href="services.html">Internal Services</a>
+                                        <ul class="submenu">
+                                            <li><a href="services.html#d1">Project Incubation</a></li>
+                                            <li><a href="services.html#e1">Studies and Diagnostics</a></li>
+                                            <li><a href="services.html#c1">Business Launch</a></li>
+                                            <li><a href="services.html#f1">Implementation</a></li>
+                                            <li><a href="services.html#b1">Corporate Governance</a></li>
+                                            <li><a href="services.html#d1">Optimization/Securing...</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="has-droupdown has-menu-child-item"><a href="servicesext.html">Partner Services</a>
+                                        <ul class="submenu">
+                                            <li><a href="servicesext.html#f2">Fundraising</a></li>
+                                            <li><a href="servicesext.html#b2">Business Creation</a></li>
+                                            <li><a href="servicesext.html#a2">Legal Advice</a></li>
+                                            <li><a href="servicesext.html#d2">Licenses and Authorizations</a></li>
+                                            <li><a href="servicesext.html#e2">Assistance in Program Formation</a></li>
+                                            <li><a href="servicesext.html#c2">Visas</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </nav>
+
+                            <!-- Start Header Btn  -->
+                            <div class="header-btn">
+                                <a class="btn-default btn-small round" href="contact.html">Contact Us</a>
+                            </div>
+                            <!-- End Header Btn  -->
+
+                            <!-- Start Mobile-Menu-Bar -->
+                            <div class="mobile-menu-bar ml--5 d-block d-lg-none">
+                                <div class="hamberger">
+                                    <button class="hamberger-button">
+                                        <i class="feather-menu"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <!-- Start Mobile-Menu-Bar -->
+
+                            <div id="my_switcher" class="my_switcher">
+                                <ul>
+                                    <li>
+                                        <a href="javascript: void(0);" data-theme="light" class="setColor light">
+                                            <img class="sun-image" src="assets/images/icons/sun-01.svg" alt="Sun images">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript: void(0);" data-theme="dark" class="setColor dark">
+                                            <img class="Victor Image" src="assets/images/icons/vector.svg" alt="Vector Images">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- End Header Area  -->
+        <div class="popup-mobile-menu">
+            <div class="inner">
+                <div class="header-top">
                     <div class="logo">
                         <a href="index.html">
                             <img class="logo-light" src="assets/images/logo/logo.png" alt="Corporate Logo">
                             <img class="logo-dark" src="assets/images/logo/logo-dark.png" alt="Corporate Logo">
                         </a>
                     </div>
-                </div>
-                <div class="col-lg-9 col-md-6 col-8 position-static">
-                    <div class="header-right">
-
-                        <nav class="mainmenu-nav d-none d-lg-block">
-                            <ul class="mainmenu">
-                                <li class="with-megamenu has-menu-child-item position-relative"><a href="index.html">Home</a>
-                                </li>
-                                <li><a href="about.html">A Propos</a></li>
-
-
-                                <li class="has-droupdown has-menu-child-item"><a href="services.html">Services Internes</a>
-                                    <ul class="submenu">
-                                        <li><a href="services.html#d1">Incubation de Projets</a></li>
-                                        <li><a href="services.html#e1">Études et diagnostics</a></li>
-                                        <li><a href="services.html#c1">Lancement d'activites</a></li>
-                                        <li><a href="services.html#f1">Implantation</a></li>
-                                        <li><a href="services.html#b1">Gouvernance d'entreprise</a></li>
-                                        <li><a href="services.html#d1">Optimistation/Securisation...</a></li>
-                                    </ul>
-                                </li>
-                                <li class="has-droupdown has-menu-child-item"><a href="servicesext.html">Services Partenaires</a>
-                                    <ul class="submenu">
-                                        <li><a href="servicesext.html#f2">Levée de Fonds</a></li>
-                                        <li><a href="servicesext.html#b2">Création d'entreprise</a></li>
-                                        <li><a href="servicesext.html#a2">Conseils juridiques</a></li>
-                                        <li><a href="servicesext.html#d2">Licences et autorisations</a></li>
-                                        <li><a href="servicesext.html#e2">Aide à la Création de Programmes de Formation</a></li>
-                                        <li><a href="servicesext.html#c2">Visas</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </nav>
-
-                        <!-- Start Header Btn  -->
-                        <div class="header-btn">
-                            <a class="btn-default btn-small round" href="contact.html">Contactez-nous</a>
-                        </div>
-                        <!-- End Header Btn  -->
-
-                        <!-- Start Mobile-Menu-Bar -->
-                        <div class="mobile-menu-bar ml--5 d-block d-lg-none">
-                            <div class="hamberger">
-                                <button class="hamberger-button">
-                                    <i class="feather-menu"></i>
-                                </button>
-                            </div>
-                        </div>
-                        <!-- Start Mobile-Menu-Bar -->
-
-                        <div id="my_switcher" class="my_switcher">
-                            <ul>
-                                <li>
-                                    <a href="javascript: void(0);" data-theme="light" class="setColor light">
-                                        <img class="sun-image" src="assets/images/icons/sun-01.svg" alt="Sun images">
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="javascript: void(0);" data-theme="dark" class="setColor dark">
-                                        <img class="Victor Image" src="assets/images/icons/vector.svg" alt="Vector Images">
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-
+                    <div class="close-menu">
+                        <button class="close-button">
+                            <i class="feather-x"></i>
+                        </button>
                     </div>
                 </div>
-            </div>
-        </div>
-    </header>
-    <!-- End Header Area  -->
-    <div class="popup-mobile-menu">
-        <div class="inner">
-            <div class="header-top">
-                <div class="logo">
-                    <a href="index.html">
-                        <img class="logo-light" src="assets/images/logo/logo.png" alt="Corporate Logo">
-                        <img class="logo-dark" src="assets/images/logo/logo-dark.png" alt="Corporate Logo">
-                    </a>
-                </div>
-                <div class="close-menu">
-                    <button class="close-button">
-                        <i class="feather-x"></i>
-                    </button>
-                </div>
-            </div>
-            <ul class="mainmenu">
-                <li class=""><a href="index.html">Home</a>
+                <ul class="mainmenu">
+                    <li class=""><a href="index.html">Home</a>
 
-                </li>
-                <li><a href="about.html">A Propos</a></li>
+                    </li>
+                    <li><a href="about.html">About</a></li>
 
-                <li class="has-droupdown has-menu-child-item"><a href="services.html">Services</a>
-                    <ul class="submenu">
-                        <li><a href="services.html#d1">Incubation de Projets</a></li>
-                        <li><a href="services.html#b1">Gouvernance d'entreprise</a></li>
-                        <li><a href="services.html#c1">Lancement d'activites</a></li>
-                        <li><a href="services.html#d1">Optimistation/Securisation...</a></li>
-                        <li><a href="services.html#e1">Études et diagnostics</a></li>
-                        <li><a href="services.html#f1">Création et implantation</a></li>
-                    </ul>
-                </li>
-                <li class="has-droupdown has-menu-child-item"><a href="servicesext.html">Services partenaires</a>
-                    <ul class="submenu">
-                            <li><a href="servicesext.html#f2">Levée de Fonds</a></li>
-                            <li><a href="servicesext.html#a2">Conseils juridiques</a></li>
-                            <li><a href="servicesext.html#b2">Création d'entreprise</a></li>
-                            <li><a href="servicesext.html#c2">Aide à la Création de Programmes de Formation</a></li>
+                    <li class="has-droupdown has-menu-child-item"><a href="services.html">Services</a>
+                        <ul class="submenu">
+                            <li><a href="services.html#d1">Project Incubation</a></li>
+                            <li><a href="services.html#b1">Corporate Governance</a></li>
+                            <li><a href="services.html#c1">Business Launch</a></li>
+                            <li><a href="services.html#d1">Optimization/Securing...</a></li>
+                            <li><a href="services.html#e1">Studies and Diagnostics</a></li>
+                            <li><a href="services.html#f1">Creation and Implementation</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-droupdown has-menu-child-item"><a href="servicesext.html">Partner Services</a>
+                        <ul class="submenu">
+                            <li><a href="servicesext.html#f2">Fundraising</a></li>
+                            <li><a href="servicesext.html#a2">Legal Advice</a></li>
+                            <li><a href="servicesext.html#b2">Business</a></li>
+                            <li><a href="servicesext.html#b2">Business Creation</a></li>
+                            <li><a href="servicesext.html#c2">Assistance in Program Formation</a></li>
                             <li><a href="servicesext.html#d2">Visas</a></li>
-                            <li><a href="servicesext.html#e2">Licences et autorisations</a></li>
-                      </ul>  
-                </li>
-                <li><a href="contact.html">Contactez-nous</a></li>
-                
+                            <li><a href="servicesext.html#e2">Licenses and Authorizations</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="indexfr.html">FR</a></li>
+                </ul>
+            </div>
         </div>
-    </div>
-    <!-- Start Theme Style  -->
-    <div>
-        <div class="rainbow-gradient-circle"></div>
-        <div class="rainbow-gradient-circle theme-pink"></div>
-    </div>
-    <!-- End Theme Style  -->
+        <!-- Start Theme Style  -->
+        <div>
+            <div class="rainbow-gradient-circle"></div>
+            <div class="rainbow-gradient-circle theme-pink"></div>
+        </div>
+        <!-- End Theme Style  -->
 
 
         <!-- Start Slider Area  -->
@@ -164,24 +168,24 @@
                 <div class="row">
                     <div class="col-lg-8 order-2 order-lg-1 mt_md--40 mt_sm--40">
                         <div class="inner text-left">
-                            <h1 class="title theme-gradient display-two">Golden Gate <br> Pour
-                                <span class="header-caption">
-                                    <span class="cd-headline clip is-full-width">
-                                        <span class="cd-words-wrapper">
-                                            <b class="is-visible theme-gradient">Web3.</b>
-                                            <b class="is-hidden theme-gradient">DeFi.</b>
-                                            <b class="is-hidden theme-gradient">Startup.</b>
-                                        </span>
-                                </span>
-                                </span>
+                            <h1 class="title theme-gradient display-two">Golden Gate <br> For
+                            <span class="header-caption">
+                            <span class="cd-headline clip is-full-width">
+                            <span class="cd-words-wrapper">
+                            <b class="is-visible theme-gradient">Web3.</b>
+                            <b class="is-hidden theme-gradient">DeFi.</b>
+                            <b class="is-hidden theme-gradient">Startup.</b>
+                            </span>
+                            </span>
+                            </span>
                             </h1>
-                            <p class="description">Depuis notre création en 2020, Golden Gate Management a guidé<br> des startups disruptives 
-                                et des entreprises établies vers le succès,<br> en mettant l'accent sur les technologies 
-                                émergentes comme le<br> Web3 et la finance décentralisée (DeFi).</p>
+                            <p class="description">Since our establishment in 2020, Golden Gate Management has guided
+                                <br> disruptive startups and established companies towards success,
+                                <br> focusing on emerging technologies like
+                                <br> Web3 and decentralized finance (DeFi).</p>
                             <div class="button-group">
-                                <a class="btn-default btn-medium round btn-icon" href="services.html">Nos Services<i class="icon feather-arrow-right"></i></a>
-                                <a class="btn-default btn-medium btn-border round btn-icon" href="contact.html">Contactez-nous<i
-                                        class="icon feather-arrow-right"></i></a>
+                                <a class="btn-default btn-medium round btn-icon" href="services.html">Our Services<i class="icon feather-arrow-right"></i></a>
+                                <a class="btn-default btn-medium btn-border round btn-icon" href="contact.html">Contact Us<i class="icon feather-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -194,8 +198,8 @@
             </div>
         </div>
         <!-- End Slider Area  -->
-         <!-- Start Call To Action  -->
-         <div class="rainbow-callto-action-area">
+        <!-- Start Call To Action  -->
+        <div class="rainbow-callto-action-area">
             <div class="wrapper">
                 <div class="rainbow-callto-action clltoaction-style-default style-5">
                     <div class="container">
@@ -203,12 +207,11 @@
                             <div class="col-lg-12">
                                 <div class="inner">
                                     <div class="content text-center" data-sal="slide-up" data-sal-duration="700">
-                                        <h2 class="title">Découvrez comment nous pouvons vous aider</h2>
+                                        <h2 class="title">Discover how we can help you</h2>
                                         <h6 class="subtitle"></h6>
                                         <div class="call-to-btn text-center">
-                                            <a class="btn-default btn-icon" href="services.html">Consultez nos services <i
-                                                    class="icon feather-arrow-right"></i>
-                                            </a>
+                                            <a class="btn-default btn-icon" href="services.html">Check out our services <i class="icon feather-arrow-right"></i>
+                            </a>
                                         </div>
                                     </div>
                                 </div>
@@ -219,7 +222,7 @@
             </div>
         </div>
         <!-- End Call To Action  -->
-        
+
         <!-- Start Seperator Area  -->
         <div class="rbt-separator-mid">
             <div class="container">
@@ -228,95 +231,14 @@
         </div>
         <!-- End Seperator Area  -->
 
-                    <!-- Start Timeline-Style-Three  -->
-                    <div class="rainbow-timeline-area rainbow-section-gap">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <div class="section-title text-center" data-sal="slide-up" data-sal-duration="700" data-sal-delay="100">
-                                        <h4 class="subtitle "><span class="theme-gradient">Timeline</span></h4>
-                                        <h2 class="title w-600 mb--20">Typologie A de process d'interventions</h2>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-lg-10 offset-lg-1 mt--50">
-                                    <div class="timeline-style-two bg-color-blackest">
-                                        <div class="row row--0">
-                                            <div class="col-lg-3 col-md-3 rainbow-timeline-single ">
-                                                <div class="rainbow-timeline">
-                                                    <h6 class="title" data-sal="slide-up" data-sal-duration="700" data-sal-delay="200">Incubation</h6>
-                                                    <div class="progress-line">
-                                                        <div class="line-inner"></div>
-                                                    </div>
-                                                    <div class="progress-dot">
-                                                        <div class="dot-level">
-                                                            <div class="dot-inner"></div>
-                                                        </div>
-                                                    </div>
-                                                    <p class="description" data-sal="slide-up" data-sal-duration="700" data-sal-delay="300">Pouvoir s'appuyer sur une organisation administrative pour developper ses idees.</p>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-3 col-md-3 rainbow-timeline-single ">
-                                                <div class="rainbow-timeline">
-                                                    <h6 class="title" data-sal="slide-up" data-sal-duration="700" data-sal-delay="200">Etudes et diagnostiques</h6>
-                                                    <div class="progress-line">
-                                                        <div class="line-inner"></div>
-                                                    </div>
-                                                    <div class="progress-dot">
-                                                        <div class="dot-level">
-                                                            <div class="dot-inner"></div>
-                                                        </div>
-                                                    </div>
-                                                    <p class="description" data-sal="slide-up" data-sal-duration="700" data-sal-delay="300">Eprouver, comparer et faconner les idees, les projets. Processus de mise en adequation.</p>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-3 col-md-3 rainbow-timeline-single ">
-                                                <div class="rainbow-timeline">
-                                                    <h6 class="title" data-sal="slide-up" data-sal-duration="700" data-sal-delay="200">Lancement d'activité</h6>
-                                                    <div class="progress-line">
-                                                        <div class="line-inner"></div>
-                                                    </div>
-                                                    <div class="progress-dot">
-                                                        <div class="dot-level">
-                                                            <div class="dot-inner"></div>
-                                                        </div>
-                                                    </div>
-                                                    <p class="description" data-sal="slide-up" data-sal-duration="700" data-sal-delay="300">Lancer un proof of concept, demarcher les premiers clients. Tester le positionnement.</p>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-3 col-md-3 rainbow-timeline-single ">
-                                                <div class="rainbow-timeline">
-                                                    <h6 class="title" data-sal="slide-up" data-sal-duration="700" data-sal-delay="200">Creation et implantation</h6>
-                                                    <div class="progress-line">
-                                                        <div class="line-inner"></div>
-                                                    </div>
-                                                    <div class="progress-dot">
-                                                        <div class="dot-level">
-                                                            <div class="dot-inner"></div>
-                                                        </div>
-                                                    </div>
-                                                    <p class="description" data-sal="slide-up" data-sal-duration="700" data-sal-delay="300">Organisation du transfert de l'activite vers une entite juridique autonome et des process metier.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Timeline-Style-Three  -->
-        
-                
-
-         <!-- Start Timeline-Style-Three  -->
-         <div style="padding-top: 0px!important;" class="rainbow-timeline-area rainbow-section-gap">
+        <!-- Start Timeline-Style-Three  -->
+        <div class="rainbow-timeline-area rainbow-section-gap">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="section-title text-center" data-sal="slide-up" data-sal-duration="700" data-sal-delay="100">
-                            <h2 class="title w-600 mb--20">Typologie B de process d'interventions</h2>
+                            <h4 class="subtitle "><span class="theme-gradient">Timeline</span></h4>
+                            <h2 class="title w-600 mb--20">Typology A of intervention processes</h2>
                         </div>
                     </div>
                 </div>
@@ -326,7 +248,7 @@
                             <div class="row row--0">
                                 <div class="col-lg-3 col-md-3 rainbow-timeline-single ">
                                     <div class="rainbow-timeline">
-                                        <h6 class="title" data-sal="slide-up" data-sal-duration="700" data-sal-delay="200">Gouvernance d'entreprise</h6>
+                                        <h6 class="title" data-sal="slide-up" data-sal-duration="700" data-sal-delay="200"><br>Incubation</h6>
                                         <div class="progress-line">
                                             <div class="line-inner"></div>
                                         </div>
@@ -335,12 +257,12 @@
                                                 <div class="dot-inner"></div>
                                             </div>
                                         </div>
-                                        <p class="description" data-sal="slide-up" data-sal-duration="700" data-sal-delay="300">Process de gestion et de decisions. Recrutements des collaborateurs. Mecanismes juridiques.</p>
+                                        <p class="description" data-sal="slide-up" data-sal-duration="700" data-sal-delay="300">Being able to rely on administrative organization to develop ideas.</p>
                                     </div>
                                 </div>
                                 <div class="col-lg-3 col-md-3 rainbow-timeline-single ">
                                     <div class="rainbow-timeline">
-                                        <h6 class="title" data-sal="slide-up" data-sal-duration="700" data-sal-delay="200">Developpement et organisation</h6>
+                                        <h6 class="title" data-sal="slide-up" data-sal-duration="700" data-sal-delay="200"><br>Studies and Diagnostics</h6>
                                         <div class="progress-line">
                                             <div class="line-inner"></div>
                                         </div>
@@ -349,12 +271,12 @@
                                                 <div class="dot-inner"></div>
                                             </div>
                                         </div>
-                                        <p class="description" data-sal="slide-up" data-sal-duration="700" data-sal-delay="300">Cahiers des charges des developpements techniques et logiciels. Organisation du developpement commercial.</p>
+                                        <p class="description" data-sal="slide-up" data-sal-duration="700" data-sal-delay="300">Testing, comparing, and shaping ideas, projects. Process of alignment.</p>
                                     </div>
                                 </div>
                                 <div class="col-lg-3 col-md-3 rainbow-timeline-single ">
                                     <div class="rainbow-timeline">
-                                        <h6 class="title" data-sal="slide-up" data-sal-duration="700" data-sal-delay="200">Optimistation et securisation</h6>
+                                        <h6 class="title" data-sal="slide-up" data-sal-duration="700" data-sal-delay="200"><br>Business Launch</h6>
                                         <div class="progress-line">
                                             <div class="line-inner"></div>
                                         </div>
@@ -363,12 +285,12 @@
                                                 <div class="dot-inner"></div>
                                             </div>
                                         </div>
-                                        <p class="description" data-sal="slide-up" data-sal-duration="700" data-sal-delay="300">Verification de la structure des couts et des marges. Securisation des bases de donnees.</p>
+                                        <p class="description" data-sal="slide-up" data-sal-duration="700" data-sal-delay="300">Launching a proof of concept, approaching the first clients. Testing positioning.</p>
                                     </div>
                                 </div>
                                 <div class="col-lg-3 col-md-3 rainbow-timeline-single ">
                                     <div class="rainbow-timeline">
-                                        <h6 class="title" data-sal="slide-up" data-sal-duration="700" data-sal-delay="200"><br>Suivi et opportunités</h6>
+                                        <h6 class="title" data-sal="slide-up" data-sal-duration="700" data-sal-delay="200">Creation and Implementation</h6>
                                         <div class="progress-line">
                                             <div class="line-inner"></div>
                                         </div>
@@ -377,7 +299,86 @@
                                                 <div class="dot-inner"></div>
                                             </div>
                                         </div>
-                                        <p class="description" data-sal="slide-up" data-sal-duration="700" data-sal-delay="300">Mise en place de curseur de reporting et de gestion d'anomalies. Veille du marche et de la concurrence.
+                                        <p class="description" data-sal="slide-up" data-sal-duration="700" data-sal-delay="300">Organization of the transfer of activity to an autonomous legal entity and business processes.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Timeline-Style-Three  -->
+
+
+        <!-- Start Timeline-Style-Three  -->
+        <div style="padding-top: 0px!important;" class="rainbow-timeline-area rainbow-section-gap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section-title text-center" data-sal="slide-up" data-sal-duration="700" data-sal-delay="100">
+                            <h2 class="title w-600 mb--20">Typology B of intervention processes</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-10 offset-lg-1 mt--50">
+                        <div class="timeline-style-two bg-color-blackest">
+                            <div class="row row--0">
+                                <div class="col-lg-3 col-md-3 rainbow-timeline-single ">
+                                    <div class="rainbow-timeline">
+                                        <h6 class="title" data-sal="slide-up" data-sal-duration="700" data-sal-delay="200"><br>Corporate Governance</h6>
+                                        <div class="progress-line">
+                                            <div class="line-inner"></div>
+                                        </div>
+                                        <div class="progress-dot">
+                                            <div class="dot-level">
+                                                <div class="dot-inner"></div>
+                                            </div>
+                                        </div>
+                                        <p class="description" data-sal="slide-up" data-sal-duration="700" data-sal-delay="300">Management and decision-making process. Recruitment of employees. Legal mechanisms.</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3 rainbow-timeline-single ">
+                                    <div class="rainbow-timeline">
+                                        <h6 class="title" data-sal="slide-up" data-sal-duration="700" data-sal-delay="200">Development and Organization</h6>
+                                        <div class="progress-line">
+                                            <div class="line-inner"></div>
+                                        </div>
+                                        <div class="progress-dot">
+                                            <div class="dot-level">
+                                                <div class="dot-inner"></div>
+                                            </div>
+                                        </div>
+                                        <p class="description" data-sal="slide-up" data-sal-duration="700" data-sal-delay="300">Specifications for technical and software developments. Organization of business development.</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3 rainbow-timeline-single ">
+                                    <div class="rainbow-timeline">
+                                        <h6 class="title" data-sal="slide-up" data-sal-duration="700" data-sal-delay="200">Optimization and Security</h6>
+                                        <div class="progress-line">
+                                            <div class="line-inner"></div>
+                                        </div>
+                                        <div class="progress-dot">
+                                            <div class="dot-level">
+                                                <div class="dot-inner"></div>
+                                            </div>
+                                        </div>
+                                        <p class="description" data-sal="slide-up" data-sal-duration="700" data-sal-delay="300">Verification of cost and margin structures. Database security.</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3 rainbow-timeline-single ">
+                                    <div class="rainbow-timeline">
+                                        <h6 class="title" data-sal="slide-up" data-sal-duration="700" data-sal-delay="200">Monitoring and Opportunities</h6>
+                                        <div class="progress-line">
+                                            <div class="line-inner"></div>
+                                        </div>
+                                        <div class="progress-dot">
+                                            <div class="dot-level">
+                                                <div class="dot-inner"></div>
+                                            </div>
+                                        </div>
+                                        <p class="description" data-sal="slide-up" data-sal-duration="700" data-sal-delay="300">Implementation of reporting and anomaly management sliders. Market and competition monitoring.
                                         </p>
                                     </div>
                                 </div>
@@ -389,41 +390,36 @@
         </div>
         <!-- End Timeline-Style-Three  -->
 
-                <!-- Start Seperator Area  -->
-                <div class="rbt-separator-mid">
-                    <div class="container">
-                        <hr class="rbt-separator m-0">
-                    </div>
-                </div>
-                <!-- End Seperator Area  -->
+        <!-- Start Seperator Area  -->
+        <div class="rbt-separator-mid">
+            <div class="container">
+                <hr class="rbt-separator m-0">
+            </div>
+        </div>
+        <!-- End Seperator Area  -->
 
-                
-
-         <!-- Start Company Mission Area  -->
-         <div class="rainbow-company-mission-are rainbow-section-gap">
+        <!-- Start Company Mission Area  -->
+        <div class="rainbow-company-mission-are rainbow-section-gap">
             <div class="container">
                 <div class="row row--30">
                     <div class="col-lg-6">
                         <div class="mission-title" data-sal="slide-up" data-sal-duration="800">
-                            <h2 class="title">Nos services d'incubation<br>
-                                <span class="header-caption">
-                                    <span class="cd-headline clip is-full-width">
-                                        <span class="cd-words-wrapper">
-                                            <b class="is-visible theme-gradient">Optimisations.</b>
-                                            <b class="is-hidden theme-gradient">Lancement d'activités.</b>
-                                            <b class="is-hidden theme-gradient">Gouvernance d'entreprise.</b>
-                                            <b class="is-hidden theme-gradient">Et bien plus.</b>
-                                        </span>
+                            <h2 class="title">Our incubation services<br>
+                        <span class="header-caption">
+                            <span class="cd-headline clip is-full-width">
+                                <span class="cd-words-wrapper">
+                                    <b class="is-visible theme-gradient">Optimizations.</b>
+                                    <b class="is-hidden theme-gradient">Business Launch.</b>
+                                    <b class="is-hidden theme-gradient">Corporate Governance.</b>
+                                    <b class="is-hidden theme-gradient">And much more.</b>
                                 </span>
-                                </span>
-                            </h2>
-                            <p>Découvrez nos services exclusifs, conçus pour chaque étape de votre parcours 
-                                entrepreneurial : de l'incubation de votre idée pour réduire vos risques et vos dépenses à la 
-                                création structurée de l’entreprise après validation des points clés. Nos solutions 
-                                personnalisées s'adaptent à vos besoins spécifiques pour maximiser votre impact sur le 
-                                marché ciblé.</p>
-                            <div class="read-more-btn mt--50"><a class="btn-default btn-icon" href="services.html">En savoir plus <i
-                                        class="icon feather-arrow-right"></i></a></div>
+                            </span>
+                        </span>
+                    </h2>
+                            <p>Discover our exclusive services, designed for every step of your entrepreneurial journey: from incubating your idea to reduce risks and costs to structured company creation after validating key points. Our customized solutions
+                                adapt to your specific needs to maximize your impact on the targeted market.</p>
+                            <div class="read-more-btn mt--50"><a class="btn-default btn-icon" href="services.html">Learn More <i
+                                class="icon feather-arrow-right"></i></a></div>
                         </div>
                     </div>
                     <div class="col-lg-6 mt_md--30 mt_sm--30">
@@ -431,52 +427,52 @@
                             <div class="accordion" id="accordionExamplea">
                                 <div class="accordion-item card">
                                     <h2 class="accordion-header card-header" id="headingOne">
-                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                            Optimisation de modèles d'affaires
-                                        </button>
-                                    </h2>
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Business Model Optimization
+                                </button>
+                            </h2>
                                     <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExamplea">
                                         <div class="accordion-body card-body">
-                                            Nous analysons et améliorons votre modèle d'affaires pour valider la faisabilité et maximiser l'efficacité opérationnelle et la rentabilité, tout en identifiant de nouvelles opportunités de croissance.
+                                            We analyze and improve your business model to validate feasibility and maximize operational efficiency and profitability, while identifying new growth opportunities.
                                         </div>
                                     </div>
                                 </div>
 
                                 <div class="accordion-item card">
                                     <h2 class="accordion-header card-header" id="headingTwo">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                            Lancement d'activités
-                                        </button>
-                                    </h2>
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Business Launch
+                                </button>
+                            </h2>
                                     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExamplea">
                                         <div class="accordion-body card-body">
-                                            De l'idéation à la mise en œuvre, nous vous accompagnons dans le lancement réussi de votre entreprise, en fournissant un soutien stratégique et opérationnel à chaque étape du processus.
+                                            From ideation to implementation, we accompany you in the successful launch of your business, providing strategic and operational support at every stage of the process.
                                         </div>
                                     </div>
                                 </div>
 
                                 <div class="accordion-item card">
                                     <h2 class="accordion-header card-header" id="headingThree">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                            Gouvernance d'entreprise
-                                        </button>
-                                    </h2>
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Corporate Governance
+                                </button>
+                            </h2>
                                     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExamplea">
                                         <div class="accordion-body card-body">
-                                            Nous aidons à établir des structures de gouvernance solides, garantissant une prise de décision efficace et une conformité réglementaire, tout en favorisant la transparence et la responsabilité organisationnelle.
+                                            We help establish strong governance structures, ensuring effective decision-making and regulatory compliance while promoting organizational transparency and accountability.
                                         </div>
                                     </div>
                                 </div>
 
                                 <div class="accordion-item card">
                                     <h2 class="accordion-header card-header" id="headingFour">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                            Services exclusifs adaptés
-                                        </button>
-                                    </h2>
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    Tailored Exclusive Services
+                                </button>
+                            </h2>
                                     <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExamplea">
                                         <div class="accordion-body card-body">
-                                            Nous offrons un accompagnement complet, de l'incubation initiale à la création structurée de l'entreprise, en mettant l'accent sur la réduction des risques et des coûts, tout en maximisant l'impact sur le marché visé.
+                                            We offer comprehensive support, from initial incubation to structured company creation, focusing on risk and cost reduction while maximizing impact on the target market.
                                         </div>
                                     </div>
                                 </div>
@@ -488,7 +484,7 @@
             </div>
         </div>
         <!-- End Company Mission Area  -->
-       
+
         <!-- Start Seperator Area  -->
         <div class="rbt-separator-mid">
             <div class="container">
@@ -497,108 +493,104 @@
         </div>
         <!-- End Seperator Area  -->
 
-
-
-
         <!-- Start Footer Area  -->
-                        <!-- Start Footer Area  -->
-                        <footer class="rainbow-footer footer-style-default variation-two">
-                            <div class="rainbow-callto-action clltoaction-style-default style-7">
-                                <div class="container">
-                                    <div class="row row--0 align-items-center content-wrapper">
-                                        <div class="col-lg-8 col-md-8">
-                                            <div class="inner">
-                                                <div class="content text-left">
-                                                    <div class="logo">
-                                                        <a href="index.html">
-                                                            <img class="logo-light" src="assets/images/logo/logo.png" alt="Corporate Logo">
-                                                            <img class="logo-dark" src="assets/images/logo/logo-dark.png" alt="Corporate Logo">
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-4 col-md-4" data-sal="slide-up" data-sal-duration="400" data-sal-delay="150">
-                                            <div class="call-to-btn text-left mt_sm--20 text-lg-right">
-                                                <a class="btn-default" href="contact.html">Contactez-nous
-                                                    <i class="feather-arrow-right"></i>
-                                                </a>
-                                            </div>
-                                        </div>
+        <footer class="rainbow-footer footer-style-default variation-two">
+            <div class="rainbow-callto-action clltoaction-style-default style-7">
+                <div class="container">
+                    <div class="row row--0 align-items-center content-wrapper">
+                        <div class="col-lg-8 col-md-8">
+                            <div class="inner">
+                                <div class="content text-left">
+                                    <div class="logo">
+                                        <a href="index.html">
+                                            <img class="logo-light" src="assets/images/logo/logo.png" alt="Corporate Logo">
+                                            <img class="logo-dark" src="assets/images/logo/logo-dark.png" alt="Corporate Logo">
+                                        </a>
                                     </div>
                                 </div>
                             </div>
-                            <div class="footer-top">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-lg-2 col-md-6 col-sm-6 col-12">
-                                            <div class="rainbow-footer-widget">
-                                                <h4 class="title"><a href="services.html">Services</a></h4>
-                                                <div class="inner">
-                                                    <ul class="footer-link link-hover">
-                                                        <li><a href="services.html#d1">Incubation de Projets</a></li>
-                                                        <li><a href="services.html#b1">Gouvernance d'entreprise</a></li>
-                                                        <li><a href="services.html#c1">Lancement d'activites</a></li>
-                                                        <li><a href="services.html#d1">Optimistation/Securisation...</a></li>
-                                                        
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-2 col-md-6 col-sm-6 col-12">
-                                            <div class="rainbow-footer-widget">
-                                                <div class="widget-menu-top">
-                                                    <h4 class="title">...</h4>
-                                                    <div class="inner">
-                                                        <ul class="footer-link link-hover">
-                                                            <li><a href="services.html#e1">Études et diagnostics</a></li>
-                                                            <li><a href="services.html#f1">Implantation</a></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-2 col-md-6 col-sm-6 col-12">
-                                            <div class="rainbow-footer-widget">
-                                                <h4 class="title"><a href="servicesext.html">Services Partenaires</a></h4>
-                                                <div class="inner">
-                                                    <ul class="footer-link link-hover">
-                                                        <li><a href="servicesext.html#a2">Conseils juridiques</a></li>
-                                                        <li><a href="servicesext.html#b2">Création d'entreprise</a></li>
-                                                        <li><a href="servicesext.html#c2">Visas</a></li>
-                                                        <li><a href="servicesext.html#d2">Licences et autorisations</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-2 col-md-6 col-sm-6 col-12">
-                                            <div class="rainbow-footer-widget">
-                                                <h4 class="title">...</h4>
-                                                <div class="inner">
-                                                    <ul class="footer-link link-hover">
-                                                        <li><a href="servicesext.html#e2">Aide à la Création de Programmes de Formation</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
-                                            <div class="rainbow-footer-widget">
-                                                <h4 class="title">Stay With Us.</h4>
-                                                <div class="inner">
-                                                    <ul class="social-icon social-default justify-content-start">
-                                                        <li><a href="https://www.linkdin.com/">
-                                                                <i class="feather-linkedin"></i>
-                                                            </a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4" data-sal="slide-up" data-sal-duration="400" data-sal-delay="150">
+                            <div class="call-to-btn text-left mt_sm--20 text-lg-right">
+                                <a class="btn-default" href="contact.html">Contact Us
+                            <i class="feather-arrow-right"></i>
+                        </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-2 col-md-6 col-sm-6 col-12">
+                            <div class="rainbow-footer-widget">
+                                <h4 class="title"><a href="services.html">Internal Services</a></h4>
+                                <div class="inner">
+                                    <ul class="footer-link link-hover">
+                                        <li><a href="services.html#d1">Project Incubation</a></li>
+                                        <li><a href="services.html#b1">Corporate Governance</a></li>
+                                        <li><a href="services.html#c1">Business Launch</a></li>
+                                        <li><a href="services.html#d1">Optimization/Security...</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-6 col-sm-6 col-12">
+                            <div class="rainbow-footer-widget">
+                                <div class="widget-menu-top">
+                                    <h4 class="title">...</h4>
+                                    <div class="inner">
+                                        <ul class="footer-link link-hover">
+                                            <li><a href="services.html#e1">Studies and Diagnostics</a></li>
+                                            <li><a href="services.html#f1">Implantation</a></li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
-                        </footer>
-                        <!-- End Footer Area  -->
+                        </div>
+                        <div class="col-lg-2 col-md-6 col-sm-6 col-12">
+                            <div class="rainbow-footer-widget">
+                                <h4 class="title"><a href="servicesext.html">Partner Services</a></h4>
+                                <div class="inner">
+                                    <ul class="footer-link link-hover">
+                                        <li><a href="servicesext.html#a2">Legal Advice</a></li>
+                                        <li><a href="servicesext.html#b2">Business Creation</a></li>
+                                        <li><a href="servicesext.html#c2">Visas</a></li>
+                                        <li><a href="servicesext.html#d2">Licenses and Authorizations</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-6 col-sm-6 col-12">
+                            <div class="rainbow-footer-widget">
+                                <h4 class="title">...</h4>
+                                <div class="inner">
+                                    <ul class="footer-link link-hover">
+                                        <li><a href="servicesext.html#e2">Assistance in Creating Training Programs</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div class="rainbow-footer-widget">
+                                <h4 class="title">Stay With Us.</h4>
+                                <div class="inner">
+                                    <ul class="social-icon social-default justify-content-start">
+                                        <li>
+                                            <a href="https://ae.linkedin.com/company/golden-gate-management">
+                                                <i class="feather-linkedin"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- End Footer Area  -->
         <!-- End Footer Area  -->
         <!-- Start Copy Right Area  -->
         <div class="copyright-area copyright-style-one">
@@ -608,13 +600,13 @@
                         <div class="copyright-left">
                             <ul class="ft-menu link-hover">
                                 <li>
-                                    <a href="privacy-policy.html">Politique De Confidentialité</a>
+                                    <a href="privacy-policy.html">Privacy Policy</a>
                                 </li>
                                 <li>
-                                    <a href="privacy-policy.html">Mentions Légales</a>
+                                    <a href="privacy-policy.html">Legal Notice</a>
                                 </li>
                                 <li>
-                                    <a href="contact.html">Contactez-nous</a>
+                                    <a href="contact.html">Contact Us</a>
                                 </li>
                             </ul>
                         </div>
